@@ -41,10 +41,19 @@
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `QUEM`    | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|---------------------|-----------------------------------|----------------------------------|
-| Indivíduo doméstico | Organizar minhas listas de compra | ...                              |
-| ...                | ...                       | ...                              |
+|EU COMO... `QUEM`    | QUERO/PRECISO ... `O QUE`               |PARA ... `PORQUE`         |
+|---------------------|-----------------------------------------|--------------------------|
+| Indivíduo doméstico | Organizar minhas listas de compra       | Otimizar o tempo gasto no
+supermercado                                                    |
+| Indivíduo doméstico | Centralizar minhas listas em um só lugar| Saber que sempre vou
+encontrar uma lista que estiver procurando, neste local         |
+| Indivíduo doméstico | Criar lista de compras organizadas      | Planejar as compras que
+serão feitas e controlar gastos desnecessários                  |
+| Profissional Ocupado| Otimizar tempo em compras               | Utilizar este tempo em outras
+atividades 
+| Profissional Ocupado| Listas separadas por grupos de itens (limpeza, laticínios,
+guloseimas...)                                                  | Facilitar a ida ao supermercado e evitar
+desperdício de tempo procurando itens várias vezes.             |
 
 ## Requisitos do Projeto
 
