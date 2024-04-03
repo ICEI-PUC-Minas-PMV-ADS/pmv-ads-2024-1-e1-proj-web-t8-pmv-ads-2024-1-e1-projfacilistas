@@ -1,25 +1,25 @@
 # Título do Projeto
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1° semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é o desenvolvimento de um site fácil, útil e intuitivo para usuários de todos os perfis sociais, idades, classes, que torne mais prático a criação de listas que podem ser editadas, manipuladas e criadas pelos usuários do sistema.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Adrian Sodré da Silva
+* Antonio Cesar de Araujo e Silva
+* Breno Santos Figueiredo
+* Cláudio Yuri Pereira de Souza
+* David Travassos Milan
 * Patrícia Ester Ferreira Rodrigues
 
 ## Orientador
 
-* Nome completo do professor
+* Amália Soares Vieira de Vasconcelos
 
 # Documentação
 
