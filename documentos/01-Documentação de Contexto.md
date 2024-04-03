@@ -1,35 +1,104 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+O hábito de criar listas é antigo e mesmo com a inovação tecnológica ela não perdeu sua
+relevância nos vários ambientes sociais. Muito práticas e versáteis, as listas são
+ferramentas que podem ser utilizadas para diferentes situações: para compras no
+supermercado, elencar desejos, definir prioridades no trabalho, anotar itens importantes
+para uma viagem e catalogar filmes que deseja ver. Desta forma as listas desempenham
+várias funções, desde resumir informações até facilitar a compreensão dos dados e
+informações de forma clara, objetiva e organizada.
+
+Por se tratar de um gênero textual, as listas têm como objetivo organizar o que se pretende
+fazer, e segundo a Prefeitura de Goiânia no seu site: "É um gênero com função social clara,
+porque são textos com propósitos específicos, que tem como intuito organizar dados ou
+então servem de apoio à memória. Mas, será que se pode confiar somente na memória?
+Não, por isso as listas foram criadas. No entanto, se precisa evoluir na criação das listas,
+que antes eram feitas exclusivamente com papel e caneta, mas que com a evolução
+tecnológica precisam evoluir também.
+
+De acordo com Paiva e Alves (2018), “[...] a tecnologia se faz presente na sociedade, na
+vida cotidiana de diversas gerações e está em tudo a nossa volta facilitando as relações de
+trabalho, de estudo, acesso a informações[...]”, redesenhando a forma de pensar e agir da
+sociedade. Estes fatos tornaram a nossa sociedade cada vez mais acelerada e multifocal, o
+que a leva, muitas vezes, no meio destas correrias, estímulos e distrações, a se perder,
+desorganizando as tarefas do dia a dia, como por exemplo fazer listas, entre elas a lista de
+supermercado. Diante disto, este projeto – FaciListas busca simplificar a relação com a
+criação de listas.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+O problema que se apresenta, e que este projeto visa abordar, é que a elaboração e o
+gerenciamento de listas são tarefas comuns no dia a dia das pessoas, abrangendo uma
+grande variedade de contextos, como compras, tarefas, viagens e eventos. No entanto, é
+comum que essas tarefas sejam executadas de forma desorganizada, o que resulta em
+listas incompletas, esquecimentos de itens relevantes e dificuldades de priorização e
+acompanhamento das tarefas.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+A ausência de uma ferramenta dedicada ao gerenciamento de listas pode resultar em uma
+dispersão de dados em diferentes aplicativos e plataformas, ou até mesmo em vários
+papeis escritos à mão, o que dificulta a integração e sincronização entre as listas,
+comprometendo a eficiência e a consistência do processo. Diante deste contexto é factível
+que este projeto seja resolvido por uma aplicação web.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral deste projeto é o desenvolvimento de um site fácil, útil e intuitivo para
+usuários de todos os perfis sociais, idades, classes, que torne mais prático a criação de
+listas que podem ser editadas, manipuladas e criadas pelos usuários do sistema.
+
+Como objetivos específicos, podemos destacar:
+• Organizar as listas de forma clara e objetiva;
+• Otimizar o tempo do usuário;
+• Evitar retrabalho com várias idas ao supermercado.
+• Evitar acúmulo de vários papeis com listas, de forma que as informações se percam;
+• Possibilitar acesso às listas em qualquer ambiente deste que o usuário tenho um
+celular, smartphone ou tablet em mãos.
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Adriana Drulla, mestre em psicologia, destaca os aspectos fundamentais das listas: a
+capacidade de reduzir a ansiedade e promover uma sensação de controle e organização
+(DRULLA, 2021). Os indivíduos são capacitados a lidar com situações desafiadoras,
+proporcionando uma sensação de segurança e preparação. Além disso, fazer listas não é
+só organizar tarefas e itens, mas também refletir e priorizar. Ao listar, as pessoas pensam
+criticamente sobre o que é importante, planejam e estabelecem metas. Isso ajuda a usar
+melhor o tempo e os recursos.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+Além disso, a criação de listas auxilia famílias a otimizar tempo e dinheiro na hora de fazer
+as compras, visto que com uma lista em mãos a chance de comprar itens desnecessários,
+comprar quantidades erradas (para mais ou para menos) e esquecer de comprar itens
+importantes é reduzida (DA SILVA, DA SILVA e DIVINO, 2015). Tendo em vista que as
+Tecnologias Digitais de Informação e Comunicação (TDIC) estão cada vez mais presentes
+na vida das pessoas (VILAÇA e ARAUJO, 2016), é importante que a prática de fazer listas
+seja adaptada para estas tecnologias, sendo possível utilizar das suas ferramentas para
+auxiliar na criação e administração destas listas.
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Visando esta necessidade crescente de melhoria e facilitação da vida pelos usuários, e com
+confirmação deste interesse por meio de formulário foi avaliada e confirmada o quanto os
+indivíduos buscam estas “facilidades” no seu cotidiano. O site organizador de listas é
+importante para melhorar a eficiência e a organização, além de promover um maior bemestar
+emocional e mental, ao oferecer uma ferramenta que gerencia o estresse e a
+sobrecarga. O site ajuda as pessoas a se sentirem mais felizes e produtivas.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+O público-alvo deste projeto abrangerá uma ampla gama de usuários, independentemente
+de idade, gênero, classe social ou profissão. Destina-se a:
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+1- Indivíduos Domésticos: Homens e mulheres responsáveis por gerenciar as compras para
+suas casas e famílias, buscando eficiência e organização no processo de compra.
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
+2- Profissionais Ocupados: Pessoas com agendas agitadas que desejam otimizar seu
+tempo ao criar e gerenciar lista de compras, evitando retrabalho e garantindo que não
+esqueçam itens importantes.
 
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+3- Ecoconscientes: Indivíduos preocupados com o meio ambiente que optam por soluções
+digitais para evitar o acúmulo de papel com listas de compras, contribuindo para a redução
+do desperdício.
 
+4- Usuários Móveis: Pessoas que precisam de acesso às suas listas de compras em
+qualquer lugar, utilizando dispositivos móveis como smartphones e tablets para garantir
+praticidade e conveniência.
+
+5- Diversas Faixas Etárias e Perfis Sociais: Nosso site é projetado para ser acessível e útil
+para pessoas de todas as idades e origens sociais, garantindo uma experiência inclusiva
+para todos os usuários.
