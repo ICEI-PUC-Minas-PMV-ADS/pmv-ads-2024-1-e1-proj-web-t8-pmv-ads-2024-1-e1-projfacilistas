@@ -55,9 +55,8 @@ celular, smartphone ou tablet em mãos.
 
 ## Justificativa
 
-Adriana Drulla, mestre em psicologia, destaca os aspectos fundamentais das listas: a
-capacidade de reduzir a ansiedade e promover uma sensação de controle e organização
-(DRULLA, 2021). Os indivíduos são capacitados a lidar com situações desafiadoras,
+Em entrevista a Revista Viva Bem, Adriana Drulla, mestre em psicologia, destaca os aspectos fundamentais das listas: a capacidade de reduzir a ansiedade e promover uma sensação de controle e organização
+(NORONHA, 2021). Os indivíduos são capacitados a lidar com situações desafiadoras,
 proporcionando uma sensação de segurança e preparação. Além disso, fazer listas não é
 só organizar tarefas e itens, mas também refletir e priorizar. Ao listar, as pessoas pensam
 criticamente sobre o que é importante, planejam e estabelecem metas. Isso ajuda a usar
