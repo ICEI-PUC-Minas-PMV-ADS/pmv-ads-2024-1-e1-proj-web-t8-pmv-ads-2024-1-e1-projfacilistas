@@ -54,8 +54,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
-
 | ID    | Descrição                       | Prioridade |
 |-------|---------------------------------|------------|
 | RF-01 | Os usuários devem poder ordenar os itens da lista de acordo com diferentes critérios, como data de criação, prioridade ou status. | Alta | 
@@ -69,8 +67,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 **Prioridade: Alta / Média / Baixa. 
 
 ### Requisitos não Funcionais
-
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|-----------|
