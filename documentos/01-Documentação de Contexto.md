@@ -46,11 +46,11 @@ usuários de todos os perfis sociais, idades, classes, que torne mais prático a
 listas que podem ser editadas, manipuladas e criadas pelos usuários do sistema.
 
 Como objetivos específicos, podemos destacar:
-• Organizar as listas de forma clara e objetiva;
-• Otimizar o tempo do usuário;
-• Evitar retrabalho com várias idas ao supermercado.
-• Evitar acúmulo de vários papeis com listas, de forma que as informações se percam;
-• Possibilitar acesso às listas em qualquer ambiente deste que o usuário tenho um
+* Organizar as listas de forma clara e objetiva;
+* Otimizar o tempo do usuário;
+* Evitar retrabalho com várias idas ao supermercado.
+* Evitar acúmulo de vários papeis com listas, de forma que as informações se percam;
+* Possibilitar acesso às listas em qualquer ambiente deste que o usuário tenho um
 celular, smartphone ou tablet em mãos.
 
 ## Justificativa
