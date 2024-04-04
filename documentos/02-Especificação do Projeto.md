@@ -50,8 +50,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Profissional Ocupado| Listas separadas por grupos de itens (limpeza, laticínios, guloseimas...) | Facilitar a ida ao supermercado e evitar desperdício de tempo procurando itens várias vezes. |
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
-
 ### Requisitos Funcionais
 
 | ID    | Descrição                       | Prioridade |
