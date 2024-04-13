@@ -27,6 +27,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 Para acessar Kanban do grupo no Trello, [Clique aqui](https://trello.com/b/JMGCxuVO/projeto-ads-eixo-1). Por favor, verifique se você possui as permissões necessárias para acessar o quadro.
 
+Abaixo, está um exemplo de como está ficando o quadro.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/df745081-21d1-4986-a828-f26f97dd2c3b)
+
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
