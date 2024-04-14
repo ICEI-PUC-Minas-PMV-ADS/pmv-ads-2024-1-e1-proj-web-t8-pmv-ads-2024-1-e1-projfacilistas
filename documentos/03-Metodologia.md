@@ -46,7 +46,7 @@ Abaixo, está um exemplo de como está ficando o quadro.
 </ul>
 
 <figure> 
-  <img src="documentos/img/Etiquetas.png"
+  <img src="img/Etiquetas.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
