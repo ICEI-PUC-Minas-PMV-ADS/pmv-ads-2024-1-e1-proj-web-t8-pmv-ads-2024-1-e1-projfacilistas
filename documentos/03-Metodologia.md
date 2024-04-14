@@ -3,16 +3,17 @@
 
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+O SCRUM foi escolhido como _framework_ para o desenvolvimento deste projeto. De acordo com Schwaber e Sutherland (2020):
+"Scrum emprega uma abordagem iterativa e incremental para otimizar a previsibilidade e controlar o risco. Scrum envolve grupos de pessoas que, coletivamente, possuem todas as habilidades e conhecimentos necessários para fazer o trabalho e compartilhar ou adquirir essas habilidades conforme necessário."
 
-“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
+Desta forma foi necessário dividir e equipe em papeis, formando assim nosso _Scrum Team_.
 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 - Scrum Master: David Milan
 - Product Owner: Breno Figueiredo
-- Equipe de Desenvolvimento: Adrian Sodré,Antonio Cesar de Araujo, Breno Figueiredo, Cláudio Souza, David Milan e Patrícia Rodrigues
+- Equipe de Desenvolvimento: Adrian Sodré, Antonio Cesar de Araujo, Breno Figueiredo, Cláudio Souza, David Milan e Patrícia Rodrigues
 - Equipe de Design: Patrícia Rodrigues
 
 ### Processo
@@ -51,14 +52,14 @@ Abaixo, está um exemplo de como está ficando o quadro.
   
 ### Ferramentas
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+Utilizamos diversas plataformas para o desenvolvimento deste projeto. A descrição das plataformas e seus respectivos propósitos está apresentada na tabela abaixo.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/codigo-fonte/README.md                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos                            |
 | Projeto de Interface                | Figma                              | https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?node-id=5-573&starting-point-node-id=5%3A573                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/documentos/04-Projeto%20de%20Interface.md                            |
+| Gerenciamento do Projeto            | Trello                    | https://trello.com/invite/b/JMGCxuVO/ATTIbb6ea9f0b52fbc7bbf8978cc510ce0d132A4087C/projeto-ads-eixo-1                            |
 
 
 ### Estratégia de Organização de Codificação 
