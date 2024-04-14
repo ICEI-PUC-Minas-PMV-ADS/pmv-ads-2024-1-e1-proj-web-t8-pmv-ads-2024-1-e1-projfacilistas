@@ -11,3 +11,5 @@
 5 - DA SILVA, André Luiz Barbosa; DA SILVA, Karine; DIVINO, Bianca. Dinâmica de compra de alimentos das famílias de baixa renda frente às limitações do orçamento familiar. **Revista Administração em Diálogo**, São Paulo, Pontifícia Universidade Católica de São Paulo, v. 17, n. 2, Mai/Jun/Jul/Ago, 2015.
 
 6 - VILAÇA, Márcio Luiz Corrêa; ARAÚJO, Elaine Vasquez Ferreira de. **Tecnologia, sociedade e educação na era digital**. Duque de Caxias: UNIGRANRIO, 2016.
+
+7 - SCHWABER, K.; SUTHERLAND, J. O Guia do Scrum O Guia Definitivo para o Scrum: As Regras do Jogo. Tradução: Fábio Cruz; Tradução: Eduardo Sucena; Tradução: Rodrigo Paulo. [s.l.] scrumguides.org, 2020. 
