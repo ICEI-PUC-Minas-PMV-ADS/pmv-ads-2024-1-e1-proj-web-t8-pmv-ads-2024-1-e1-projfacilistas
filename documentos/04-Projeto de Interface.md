@@ -12,24 +12,56 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
-## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+## Protótipo de baixa fidelidade
 
-### Protótipo de baixa fidelidade
+Abaixo estão apresentadas as telas do sistema apresentado acima no User Flow, seguidas de uma breve descrição do conteúdo das mesmas. Este protótipo tem como propósito representar visualmente as possíveis telas do sistema e auxiliar na visualização do conteúdo do site, ajudando a equipe a identificar possíveis pontos necessários para mudanças e melhorias.
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+### Tela - Home page
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+A home page contém um banner na parte superior com a logo do site e as opções do menu que direcionam o usuário para outras seções do site, além do botão de login.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+![Captura de Tela 2024-04-14 às 11 57 58](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/f1b23cd1-ab84-4b5c-af51-cbbcd39014f4)
+
+Figura X - Tela Home page
+
+
+### Tela - Quem Somos
+
+Esta tela explica o propósito do site e o que o usuário pode fazer com ele.
+
+![Captura de Tela 2024-04-14 às 11 58 07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/a24bc0f0-ef1b-4dac-811b-37709b1dcf3a)
+
+Figura X - Tela Quem Somos
+
+
+## Tela - Para Quem
+
+Tela que exemplifica alguns tipos de usuários que podem utilizar o sistema.
+
+![Captura de Tela 2024-04-14 às 11 58 17](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/9156e98e-7b66-470f-8826-c7bb77808045)
+
+Figura X - Tela Para Quem
+
+
+## Tela - Login
+
+Nesta tela temos os campos para que um usuário que já possui cadastro no site, faça o seu login.
+
+![Captura de Tela 2024-04-14 às 11 58 27](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/f2cd5036-2fe7-46a2-806e-fa6cb98560c2)
+
+Figura X - Tela Login
+
+
+## Tela - Crie sua Lista 
+
+Exemplo de uma lista que pode ser criada e um espaço para que o usuário crie uma lista.
+
+![Captura de Tela 2024-04-14 às 12 00 44](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/7400c5af-4929-463b-aa0d-5e9c5981056c)
+
+Figura X - Tela Crie sua Lista
+
+
 
 
 
