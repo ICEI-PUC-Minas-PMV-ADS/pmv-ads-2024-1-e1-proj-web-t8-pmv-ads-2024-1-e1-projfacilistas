@@ -23,7 +23,7 @@ A home page contém um banner na parte superior com a logo do site e as opções
 
 ![Captura de Tela 2024-04-14 às 11 57 58](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/f1b23cd1-ab84-4b5c-af51-cbbcd39014f4)
 
-Figura X - Tela Home page
+Figura 2 - Tela Home page
 
 
 ### Tela - Quem Somos
@@ -32,7 +32,7 @@ Esta tela explica o propósito do site e o que o usuário pode fazer com ele.
 
 ![Captura de Tela 2024-04-14 às 11 58 07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/a24bc0f0-ef1b-4dac-811b-37709b1dcf3a)
 
-Figura X - Tela Quem Somos
+Figura 3 - Tela Quem Somos
 
 
 ## Tela - Para Quem
@@ -41,7 +41,7 @@ Tela que exemplifica alguns tipos de usuários que podem utilizar o sistema.
 
 ![Captura de Tela 2024-04-14 às 11 58 17](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/9156e98e-7b66-470f-8826-c7bb77808045)
 
-Figura X - Tela Para Quem
+Figura 4 - Tela Para Quem
 
 
 ## Tela - Login
@@ -50,7 +50,7 @@ Nesta tela temos os campos para que um usuário que já possui cadastro no site,
 
 ![Captura de Tela 2024-04-14 às 11 58 27](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/f2cd5036-2fe7-46a2-806e-fa6cb98560c2)
 
-Figura X - Tela Login
+Figura 5 - Tela Login
 
 
 ## Tela - Crie sua Lista 
@@ -59,9 +59,14 @@ Exemplo de uma lista que pode ser criada e um espaço para que o usuário crie u
 
 ![Captura de Tela 2024-04-14 às 12 00 44](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/7400c5af-4929-463b-aa0d-5e9c5981056c)
 
-Figura X - Tela Crie sua Lista
+Figura 6 - Tela Crie sua Lista
 
 
+## Tela - Suas Listas
 
+Nesta tela o cliente consegue visualisar e edutar as listas já criadas por ele.
 
+![Captura de Tela 2024-04-14 às 20 34 37](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/44332c97-3de0-4879-b334-cfd668838a1d)
+
+Figura 7 - Tela Crie sua Lista
 
