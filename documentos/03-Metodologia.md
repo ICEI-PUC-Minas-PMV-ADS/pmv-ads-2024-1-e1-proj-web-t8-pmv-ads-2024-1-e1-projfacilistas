@@ -59,9 +59,9 @@ Utilizamos diversas plataformas para o desenvolvimento deste projeto. A descriç
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/codigo-fonte/README.md                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos                            |
 | Projeto de Interface                | Figma                              | https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?node-id=5-573&starting-point-node-id=5%3A573                            |
-| Gerenciamento do Projeto            | Trello                    | https://trello.com/invite/b/JMGCxuVO/ATTIbb6ea9f0b52fbc7bbf8978cc510ce0d132A4087C/projeto-ads-eixo-1                            |
+| Gerenciamento do Projeto            | Trello                    | https://trello.com/b/JMGCxuVO/projeto-ads-eixo-1                            |
 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site estão inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/codigo-fonte).
