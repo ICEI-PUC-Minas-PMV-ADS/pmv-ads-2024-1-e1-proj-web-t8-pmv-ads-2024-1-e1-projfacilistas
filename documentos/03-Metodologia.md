@@ -30,8 +30,7 @@ Para acessar Kanban do grupo no Trello, [Clique aqui](https://trello.com/b/JMGCx
 
 Abaixo, está um exemplo de como está ficando o quadro.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/df745081-21d1-4986-a828-f26f97dd2c3b)
-
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/10a3f400-ee04-41d1-b3cf-ffc2b576324f)
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
