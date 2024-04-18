@@ -18,7 +18,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello, estruturado com as seguintes listas:
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes listas:
 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
@@ -26,11 +26,12 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - Test: Nesta fase, as tarefas são submetidas a testes para verificar se atendem aos requisitos e estão funcionando conforme o esperado.
 - Done: Nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário.
 
-Para acessar Kanban do grupo no Trello, [Clique aqui](https://trello.com/b/JMGCxuVO/projeto-ads-eixo-1). Por favor, verifique se você possui as permissões necessárias para acessar o quadro.
+Para acessar Kanban do grupo no GitHub, [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1066/views/1). Por favor, verifique se você possui as permissões necessárias para acessar o quadro.
 
 Abaixo, está um exemplo de como está ficando o quadro.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/10a3f400-ee04-41d1-b3cf-ffc2b576324f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/2d401b53-f553-4694-aab2-206ddd15bebb)
+
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -55,10 +56,10 @@ Utilizamos diversas plataformas para o desenvolvimento deste projeto. A descriç
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/codigo-fonte/README.md                            |
-| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos                            |
-| Projeto de Interface                | Figma                              | https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?node-id=5-573&starting-point-node-id=5%3A573                            |
-| Gerenciamento do Projeto            | Trello                    | https://trello.com/b/JMGCxuVO/projeto-ads-eixo-1                            |
+| Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/codigo-fonte/README.md |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos |
+| Projeto de Interface                | Figma                              | https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?node-id=5-573&starting-point-node-id=5%3A573 |
+| Gerenciamento do Projeto            | GitHub                             | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1066/views/1 |
 
 
 ### Estratégia de Organização de Codificação 
