@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --laranja: #f58013;
+  --azul: #064176;
+  --cinza-escuro: #292828;
+}
