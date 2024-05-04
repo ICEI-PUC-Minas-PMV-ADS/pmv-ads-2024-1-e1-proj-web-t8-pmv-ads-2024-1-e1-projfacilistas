@@ -4,6 +4,9 @@
   justify-content: space-around;
   background-color: var(--azul);
   height: 84px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #logo {

@@ -1,6 +1,7 @@
 #inicio {
   background-color: var(--cinza);
-  height: calc(100vh - 84px);
+  padding-top: 84px;
+  height: calc(100vh);
   display: flex;
   align-items: center;
   width: 100%;
