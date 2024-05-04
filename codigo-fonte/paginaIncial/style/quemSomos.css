@@ -1,9 +1,72 @@
 #quemSomos {
+  display: flex;
+  flex-direction: column;
   background-color: var(--branco);
   padding-top: 84px;
   height: calc(100vh);
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+
+#title-quemSomos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#title-quemSomos > h2 {
+  color: var(--azul);
+  font-size: 50px;
+  font-weight: 500;
+}
+
+#title-quemSomos > h4 {
+  color: var(--laranja);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+#infos-quemSomos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+#txt-quemSomos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  height: 100%;
+  width: 600px;
+}
+
+#txt-quemSomos > h3 {
+  color: var(--azul);
+  font-size: 38px;
+  font-weight: 500;
+}
+
+#txt-quemSomos p {
+  color: var(--cinza-escuro);
+  font-size: 16px;
+}
+
+#txt-quemSomos > button {
+  width: 217px;
+  height: 52px;
+  border: none;
+  background-color: var(--laranja);
+  color: var(--branco);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+#txt-quemSomos > button:hover {
+  background-color: var(--hoverLaranja);
 }
