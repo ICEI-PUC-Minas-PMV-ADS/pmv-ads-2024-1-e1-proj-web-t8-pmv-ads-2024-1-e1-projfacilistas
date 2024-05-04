@@ -6,6 +6,9 @@
 
 :root {
   --laranja: #f58013;
+  --hoverLaranja: #e77408;
   --azul: #064176;
   --cinza-escuro: #292828;
+  --branco: #fff;
+  --hoverBranco: #dddcdc;
 }
