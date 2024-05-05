@@ -73,4 +73,11 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: 26px;
+  line-height: 28px;
+  color: var(--azul);
+}
+
+.card-paraQuem p {
+  color: var(--cinza-escuro);
 }
