@@ -1,0 +1,11 @@
+#paraQuem {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--branco);
+  padding-top: 84px;
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
