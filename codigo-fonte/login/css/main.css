@@ -1,0 +1,276 @@
+/* Variáveis */
+
+:root {
+    --main-color: #F58013;
+    --link-color: #064176;
+    --text1: #4D4D4D; 
+    --text2: #ABBED1;
+    --white-color: #ffffff;
+    --point-list:#cccccc;
+    --line-input: #e2e1e1;
+    --invalid-field: #e74c3c;
+}
+
+/*Zerar estilos */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+ul, li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+input, button {
+    outline: none !important; 
+    border: none; 
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Utilitários */
+.text1 {
+    font-weight: normal;
+    font-size: 15px;
+    color: var(--text2);
+    line-height: 1.5;
+}
+
+.text2 {
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--link-color);
+    line-height: 1.5;
+}
+
+.margin-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.margin-top-35 {
+    margin-top: 35px;
+}
+
+.margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+.margin-top-8 {
+    margin-top: 8px;
+}
+
+.margin-left-50 {
+    margin-left: 50px;
+}
+
+/* Login  */
+
+.container {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.container-login{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--white-color);
+}
+
+.wrap-login {
+    width: 370px;
+    margin-right: 50px;
+    background-color: var(--white-color);
+}
+
+/* Formulário */
+
+.login-form {
+    width: 100%;
+}
+
+.login-form-title {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text1);
+    line-height: 1.2;
+    text-align:left;
+}
+
+/* Input */
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid var( --line-input) ;
+}
+
+.input-form {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--text2);
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 52px;
+    background: transparent;
+    padding: 0 5px;
+}
+
+.focus-input-form {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px; 
+    pointer-events: none;
+}
+
+/* Efeito de focu no campo*/
+.focus-input-form::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: 0px;
+    height: 2px;
+    transition: all 0.4s;
+    background-color: var(--main-color);
+}
+
+/* Efeito de subir o texto durante o focu*/
+.focus-input-form::after {
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--text2);
+    line-height: 1.2;
+    content: attr(data-placeholder);
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    padding: 5px;
+    transition: all 0.4s;
+} 
+
+.input-form:focus + .focus-input-form::after {
+    top: -20px;
+    font-size: 15px;
+}
+
+.input-form:focus + .focus-input-form::before {
+    width: 100%;
+}
+
+
+.has-val.input-form + .focus-input-form::after {
+    top: -20px;
+    font-size: 15px;
+}
+
+.has-val.input-form + .focus-input-form::before {
+    width: 100%;
+}
+
+/* Botão */
+
+.container-login-form-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form-btn {
+    font-weight: 600;
+    font-size: 23px;
+    color: var(--white-color);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    transition: all 0.4s;
+}
+
+.login-form-btn:hover {
+    background-color: var(--link-color);
+}
+
+/* Links - Login Utils */
+
+a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--link-color);
+    margin: 0px;
+    transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.login-utils {
+    margin-top: 20px;
+}
+
+.login-utils {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 16px;
+}
+
+
+/*estilo da bolinha dos links*/
+/*.login-utils li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--point-list);
+    top: 45%;
+    transform: translateY(-50%);
+    left: 0; 
+}*/
+
+
+.margin-left-50 {
+    width: 300;
+    height: 300;
+}
+
+.wrap-input-invalid {
+    width: 100%;
+    border-bottom: solid 2px var(--invalid-field);
+}
+
