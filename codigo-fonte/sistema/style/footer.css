@@ -1,0 +1,32 @@
+@import "../../index.css";
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: var(--azul);
+  height: 3rem;
+  color: var(--branco);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1rem;
+    height: 6rem;
+    text-align: center;
+  }
+
+  @media (max-width: 320px) {
+    height: 7rem;
+  }
+}
+
+.copyright {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.members {
+  font-size: 13px;
+  font-weight: 400;
+}
