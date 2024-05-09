@@ -178,7 +178,6 @@ button:hover {
     width: 100%;
 }
 
-
 .has-val.input-form + .focus-input-form::after {
     top: -20px;
     font-size: 15px;
@@ -240,7 +239,7 @@ a:hover {
     margin-top: 20px;
 }
 
-.login-utils {
+.login-utils li {
     display: flex;
     justify-content:space-between;
     align-items: center;

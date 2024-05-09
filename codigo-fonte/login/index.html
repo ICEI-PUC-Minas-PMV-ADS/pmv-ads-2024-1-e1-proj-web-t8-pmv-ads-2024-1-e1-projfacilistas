@@ -21,12 +21,12 @@
                     </span>
 
                     <div class="wrap-input margin-top-35 margin-bottom-35">
-                        <input class="input-form" type="email" name="email" autocomplete="off">
+                        <input class="input-form" type="email" name="email" autocomplete="off" id="login">
                         <span class="focus-input-form" data-placeholder="Email ou nome de usuário"></span>
                     </div>
 
                     <div class="wrap-input margin-bottom-35">
-                        <input class="input-form" type="password" name="password">
+                        <input class="input-form" type="password" name="password" id="senha">
                         <span class="focus-input-form" data-placeholder="Senha"></span>
                     </div>
 
@@ -41,13 +41,13 @@
                     </ul>
 
                     <div class="container-login-form-btn">
-                        <button class="login-form-btn">Entrar</button>
+                        <button class="login-form-btn" type="submit" onclick="logar(); return false">Entrar</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
    
-    <script src="js/script.js"></script> 
+    <script src="js/script.js"></script>
 </body>
 </html>
