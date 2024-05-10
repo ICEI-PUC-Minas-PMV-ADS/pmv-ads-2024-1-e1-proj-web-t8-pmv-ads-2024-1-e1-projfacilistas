@@ -1,0 +1,39 @@
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--azul);
+  height: 84px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  max-width: 10rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+#btnHeader-div {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.btn-header {
+  padding: 0.6rem 0;
+  width: 84px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#btnHeader-logout {
+  background-color: var(--laranja);
+  color: var(--branco);
+}
+
+#btnHeader-logout:hover {
+  background-color: var(--hoverLaranja);
+}
