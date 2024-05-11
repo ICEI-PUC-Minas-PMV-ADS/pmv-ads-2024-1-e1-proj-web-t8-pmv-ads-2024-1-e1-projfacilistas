@@ -13,7 +13,7 @@ As páginas terão como elementos padrões o menu de navegação, o header, alé
 
 Exibe informações sobre o menu de navegação, login e cadastro.
 
-![pagina inicial](img/)
+![pagina inicial](img/tela-login.png)
 
 
 
