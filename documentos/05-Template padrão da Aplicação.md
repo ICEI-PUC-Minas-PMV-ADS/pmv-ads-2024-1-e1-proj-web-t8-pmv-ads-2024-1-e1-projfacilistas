@@ -4,10 +4,10 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 
 As páginas terão como elementos padrões o menu de navegação, o header, além dos elementos de identidade visual citados abaixo:
 
-##Cores: RGB: #F58013, #064176, #4D4D4D, #ABBED1 e #ffffff.
-##Font-family: Inter, sans-serif.
-##Font-size: 15px, 18px.
-##O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado aqui. 
+**Cores: RGB: #F58013, #064176, #4D4D4D, #ABBED1 e #ffffff.
+**Font-family: Inter, sans-serif.
+**Font-size: 15px, 18px.
+**O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado aqui. 
 
 > **Links Úteis**:
 >
