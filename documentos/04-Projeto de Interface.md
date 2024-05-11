@@ -71,5 +71,5 @@ Nesta tela o cliente consegue visualisar e edutar as listas já criadas por ele.
 Figura 7 - Tela Crie sua Lista
 
 
-Para ter acesso ao protótipo interativo clique [aqui](https://www.figma.com/file/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?type=design&node-id=0%3A1&mode=design&t=2Sz4Dvv0pf9ZYvNM-1). 
+Para ter acesso ao protótipo interativo clique [aqui](https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?type=design&node-id=5-573&t=2Sz4Dvv0pf9ZYvNM-0&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=5%3A573). 
 
