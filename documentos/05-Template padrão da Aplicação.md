@@ -7,7 +7,15 @@ As páginas terão como elementos padrões o menu de navegação, o header, alé
 + Cores: RGB: #F58013, #064176, #4D4D4D, #ABBED1 e #ffffff.
 + Font-family: Inter, sans-serif.
 + Font-size: 15px, 18px.
-  O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/codigo-fonte). 
+  O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/codigo-fonte).
+
+## Tela de visualização início
+
+Exibe informações sobre o menu de navegação, login e cadastro.
+
+![pagina inicial](img/)
+
+
 
 > **Links Úteis**:
 >
