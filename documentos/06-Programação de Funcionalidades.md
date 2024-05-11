@@ -66,7 +66,7 @@ RF-03: Os usuários registrados devem poder fazer login no site utilizando suas 
 
 #### Instruções de acesso
 
-1- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/
+1- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial
 
   2- Ao clicar em “Login” no canto superior direito da tela, terá acesso a página de login.
 
