@@ -9,7 +9,7 @@ Responsável : David Milan
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Sign Up”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-[figura 1 - Tela inicial]()
+![figura 1 - Tela inicial]()
 
 
 #### Requisito atendido
@@ -43,7 +43,7 @@ Responsável : Patrícia Ester Ferreira Rodrigues
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-[figura 2 - Tela inicial](img/tela-login.PNG)
+![figura 2 - Tela inicial](img/tela-login.PNG)
 
 
 #### Requisito atendido
