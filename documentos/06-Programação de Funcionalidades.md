@@ -9,7 +9,7 @@ Responsável : David Milan
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Sign Up”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
-[figura 1 - Tela inicial](img/tela-home.PNG)
+[figura 1 - Tela inicial]()
 
 
 #### Requisito atendido
@@ -48,7 +48,7 @@ O acesso a tela de cadastro poderá ser feito através da opção de menu “Log
 
 #### Requisito atendido
 
-[RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).]
+RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).
 
 
 #### Artefatos da funcionalidade
@@ -67,7 +67,8 @@ O acesso a tela de cadastro poderá ser feito através da opção de menu “Log
 #### Instruções de acesso
 
 1- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/
-2- Ao clicar em “Login” no canto superior direito da tela, terá acesso a página de login.
+
+  2- Ao clicar em “Login” no canto superior direito da tela, terá acesso a página de login.
 
 
 
