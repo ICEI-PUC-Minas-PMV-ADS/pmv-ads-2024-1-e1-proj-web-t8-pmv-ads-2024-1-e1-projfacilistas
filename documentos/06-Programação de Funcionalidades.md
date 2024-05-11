@@ -5,8 +5,6 @@ Pré-requisitos: [Especificação do Projeto](https://github.com/ICEI-PUC-Minas-
 
 ### Título da Cadastro (RF-02)
 
-Responsável : David Milan
-
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Sign Up”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 ![figura 1 - Tela inicial]()
@@ -38,8 +36,6 @@ O acesso a tela de cadastro poderá ser feito através da opção de menu “Sig
 
 
 ### Título da Login (RF -03)
-
-Responsável : Patrícia Ester Ferreira Rodrigues
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -76,7 +72,7 @@ RF-03: Os usuários registrados devem poder fazer login no site utilizando suas 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Responsável : Patrícia Ester Ferreira Rodrigues
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
