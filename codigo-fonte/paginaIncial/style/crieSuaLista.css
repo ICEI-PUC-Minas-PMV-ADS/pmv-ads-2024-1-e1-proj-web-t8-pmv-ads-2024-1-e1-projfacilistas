@@ -102,6 +102,11 @@ table td {
   padding: 8px; /* Adiciona espaçamento interno às células */
 }
 
+.laranja {
+  color: var(--laranja);
+  font-weight: 500;
+}
+
 .cinza {
   color: var(--cinza-claro);
 }
