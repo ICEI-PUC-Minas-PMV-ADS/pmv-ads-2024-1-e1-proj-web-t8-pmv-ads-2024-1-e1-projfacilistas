@@ -4,22 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <title>FaciListas - Cadastro</title>
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="/cadastro/CSS/style.css">
 </head>
 
 <body>
-    <div>
-        <form name="form_cadastro" action="" method="post"> <!--duvida no action-->
-            Criar conta
-            <p> <input type="text" name="nome" placeholder="Nome"> </p>
-            <p> <input type="email" name="email" placeholder="e-mail"> </p>
-            <p> <input type="password" name="password" placeholder="Senha"> </p>
-            <button>Cadastrar</button>
-        </form>
-        <a href="/codigo-fonte/login/index.html">Já possui conta?</p>
+    <div class="container">
+        <div class="container-cadastro">
+            <div class="wrap-cadastro">
+                <form class="cadastro-form">
+                    <span class="cadastro-form-title">
+                        Crie sua conta
+                    </span>
+
+                    <div class="wrap-input margin-top-35 margin-bottom-35">
+                        <input type="text" class="input-form" name="name" autocomplete="off">
+                        <span class="focus-input-form" data-place-holder="Nome"></span>
+                    </div>
+
+                    <div class="wrap-input margin-bottom-35">
+                        <input type="email" class="input-form" name="email" autocomplete="off">
+                        <span class="focus-input-form" data-place-holder="E-mail"></span>
+                    </div>
+
+                    <div class="wrap-input margin-bottom-35">
+                        <input type="password" class="input-form" name="password">
+                        <span class="focus-input-form" data-place-holder="Senha"></span>
+                    </div>
+
+                    <div class="container-cadastro-form-btn">
+                        <button class="cadastro-form-btn" type="submit">Cadastrar</button>
+                    </div>
+
+                    <ul class="cadastro-utils">
+                        <li class="margin-top-8 margin-bottom-8">
+                            <span class="text1">
+                                Já possui conta? Faça
+                            </span>
+                            <a href="#" class="text2"> <!-- colocar href quando tiver -->
+                                login
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <img src="/cadastro/images/cadastro.png" alt="Cadastro" width="400" height="400" class="margin-left-50">
+        </div>
     </div>
-    <img src="/codigo-fonte/img/imgQuemSomos.png"> <!--imagem provisoria-->
+
+    <script src="/cadastro/script.js"></script>
 </body>
 
 </html>
