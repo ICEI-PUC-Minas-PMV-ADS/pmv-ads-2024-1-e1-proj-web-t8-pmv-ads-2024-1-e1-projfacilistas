@@ -9,3 +9,66 @@
   width: 100%;
   justify-content: space-around;
 }
+
+#titulo-facaLista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 40px;
+}
+
+#titulo-facaLista > h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--azul);
+}
+
+#titulo-facaLista > h3 {
+  color: var(--laranja);
+}
+
+#subtitulo-facaLista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+}
+
+#subtitulo-facaLista > h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--azul);
+}
+
+#subtitulo-facaLista > p {
+  font-size: 14px;
+  color: var(--laranja);
+}
+
+#cards_facaLista {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: 100%;
+}
+
+.card-facaLista {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-facaLista {
+  display: flex;
+  background-color: var(--laranja-claro);
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
