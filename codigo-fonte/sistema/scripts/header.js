@@ -2,7 +2,7 @@ const header = () => {
   document.addEventListener("DOMContentLoaded", function () {
     if (!userLogged || Object.keys(userLogged).length === 0) {
       alert("Você não está logado. Por favor, faça login.");
-      window.location.href = "../login/index.html";
+      window.location.href = "../login/login.html";
     }
   });
 
