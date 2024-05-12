@@ -88,6 +88,7 @@ O acesso a tela das listas poderá ser feito através da opção de menu “Faç
 #### Requisito atendido
 
 RF-04: O site deve mostrar cartões na página inicial, cada um representando uma lista diferente que os usuários podem acessar.
+
 RF-07 Os usuários devem poder marcar um item como concluído à lista.
 
 #### Artefatos da funcionalidade
