@@ -88,3 +88,7 @@
   border-color: var(--laranja-claro) transparent transparent transparent; /* Inverte o triângulo */
   z-index: 1;
 }
+
+.linha {
+  width: 60%;
+}
