@@ -26,6 +26,13 @@ formulario.addEventListener("submit", (ev) => {
   const allUsers = window.localStorage.getItem("contas");
   const allUsersFormated = JSON.parse(allUsers);
 
+  for (let i = 0; i < allUsersFormated.length; i++) {
+    if (allUsersFormated[i].email === email) {
+      alert("Já existe conta cadastrada com esse e-mail!");
+      return;
+    }
+  }
+
   const newUser = {
     email: email,
     nome: nome,
