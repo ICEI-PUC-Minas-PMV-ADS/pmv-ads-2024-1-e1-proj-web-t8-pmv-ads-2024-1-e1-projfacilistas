@@ -39,7 +39,7 @@ Para acessar a página de cadastro diretamente informe o seguinte URL para o nav
 David Milan
 
 
-### Título da Login (RF -03)
+### Título da Login (RF-03)
 
 O acesso a tela de cadastro poderá ser feito através da opção de menu “Login”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -79,7 +79,7 @@ RF-03: Os usuários registrados devem poder fazer login no site utilizando suas 
 Responsável : Patrícia Ester Ferreira Rodrigues
 
 
-### Tela das listas (RF -04)
+### Tela das listas (RF-04, RF-07)
 
 O acesso a tela das listas poderá ser feito através da opção de menu “Faça suas listas”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -88,6 +88,7 @@ O acesso a tela das listas poderá ser feito através da opção de menu “Faç
 #### Requisito atendido
 
 RF-04: O site deve mostrar cartões na página inicial, cada um representando uma lista diferente que os usuários podem acessar.
+RF-07 Os usuários devem poder marcar um item como concluído à lista.
 
 #### Artefatos da funcionalidade
 
