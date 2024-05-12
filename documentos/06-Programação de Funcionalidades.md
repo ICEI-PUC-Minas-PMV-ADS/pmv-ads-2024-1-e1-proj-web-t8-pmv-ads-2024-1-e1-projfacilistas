@@ -53,9 +53,9 @@ RF-03: Os usuários registrados devem poder fazer login no site utilizando suas 
 
 #### Artefatos da funcionalidade
 
-- login.html
-- style-login.html
-- scrtipt-login.html
+- index.html
+- style-login.css
+- scrtipt-login.js
 - login.html
 
 
@@ -79,11 +79,38 @@ RF-03: Os usuários registrados devem poder fazer login no site utilizando suas 
 Responsável : Patrícia Ester Ferreira Rodrigues
 
 
-### Tela XXX XXXXX (RF -04)
+### Tela das listas (RF -04)
 
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+O acesso a tela das listas poderá ser feito através da opção de menu “Faça suas listas”. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/d9771a13-c843-4f50-9713-2fb05b3ff440)
+
+#### Requisito atendido
+
+RF-04: O site deve mostrar cartões na página inicial, cada um representando uma lista diferente que os usuários podem acessar.
+
+#### Artefatos da funcionalidade
+
+- index.html
+- footer.css
+- header.css
+- style.css
+- createYourLists.js
+- header.js
+- yourLists.js
+
+#### Estrutura de Dados
+
+- [index.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/codigo-fonte/sistema)
+
+#### Instruções de acesso
+
+1- Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial
+
+  2- Ao clicar em “Faça sua lista” no canto superior direito da tela, terá acesso a página de listas.
+
+  3- Você também pode acessar a página de login diretamente na seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/sistema/index.html
+
+#### Responsável
+
+Responsável : Breno Santos Figueiredo
