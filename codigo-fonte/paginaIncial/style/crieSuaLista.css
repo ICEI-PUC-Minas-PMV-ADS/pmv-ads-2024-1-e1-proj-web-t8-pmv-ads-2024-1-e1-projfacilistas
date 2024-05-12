@@ -66,9 +66,22 @@
 .header-facaLista {
   display: flex;
   background-color: var(--laranja-claro);
+  position: relative;
   width: 100%;
   height: 60px;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.header-facaLista::before {
+  content: "";
+  position: absolute;
+  top: 100%; /* Mova o triângulo para baixo */
+  left: 60%; /* Centralize o triângulo */
+  margin-left: -10px; /* Ajuste a margem para centralizar o triângulo */
+  border-width: 30px; /* Tamanho do triângulo */
+  border-style: solid;
+  border-color: var(--laranja-claro) transparent transparent transparent; /* Inverte o triângulo */
+  z-index: 1;
 }
