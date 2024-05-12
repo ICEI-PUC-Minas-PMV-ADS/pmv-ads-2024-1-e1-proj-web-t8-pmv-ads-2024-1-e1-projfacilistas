@@ -89,6 +89,23 @@
   z-index: 1;
 }
 
+table {
+  width: 100%;
+}
+
+table tr {
+  text-align: center;
+}
+
+table th,
+table td {
+  padding: 8px; /* Adiciona espaçamento interno às células */
+}
+
+.cinza {
+  color: var(--cinza-claro);
+}
+
 .linha {
   width: 60%;
 }
