@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-login.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style-login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="container-login">
-            <img class="margin-left-50" src="img/mobile-login/pana.png" alt="Login">
-            <div class="wrap-login">
-                <form class="login-form" id="login-form" action="#" method="post">
-                    <span class="login-form-title"> 
-                        Já esteve aqui? Bem-vindo de volta!
-                    </span>
+      <div class="container-login">
+        <img
+          class="margin-left-50"
+          src="img/mobile-login/pana.png"
+          alt="Login"
+        />
+        <div class="wrap-login">
+          <form class="login-form" id="login-form" action="#" method="post">
+            <span class="login-form-title">
+              Já esteve aqui? Bem-vindo de volta!
+            </span>
 
-                    <div class="wrap-input margin-top-35 margin-bottom-35">
-                        <input class="input-form" type="email" name="email" autocomplete="off" id="login">
-                        <span class="focus-input-form" data-placeholder="Email ou nome de usuário"></span>
-                    </div>
-
-                    <div class="wrap-input margin-bottom-35">
-                        <input class="input-form" type="password" name="password" id="senha">
-                        <span class="focus-input-form" data-placeholder="Senha"></span>
-                    </div>
-
-                    <ul class="login-utils">
-                        <li class="margin-top-8 margin-bottom-8">
-                            <input  class="utils-input" type="checkbox" checked>
-                            <span class="text1 ">Continuar logado</span>
-                        </li>
-                        <li>
-                            <span><a class="text2" href="#"> Esqueceu sua senha?</a> </span>
-                        </li>
-                    </ul>
-
-                    <div class="container-login-form-btn">
-                        <button class="login-form-btn" type="submit" onclick="logar(); return false">Entrar</button>
-                    </div>
-                </form>
+            <div class="wrap-input margin-top-35 margin-bottom-35">
+              <input
+                class="input-form"
+                type="email"
+                name="email"
+                autocomplete="off"
+                id="login"
+              />
+              <span
+                class="focus-input-form"
+                data-placeholder="Email ou nome de usuário"
+              ></span>
             </div>
+
+            <div class="wrap-input margin-bottom-35">
+              <input
+                class="input-form"
+                type="password"
+                name="password"
+                id="senha"
+              />
+              <span class="focus-input-form" data-placeholder="Senha"></span>
+            </div>
+
+            <ul class="login-utils">
+              <li class="margin-top-8 margin-bottom-8">
+                <input class="utils-input" type="checkbox" checked />
+                <span class="text1">Continuar logado</span>
+              </li>
+              <li>
+                <span><a class="text2" href="#"> Esqueceu sua senha?</a> </span>
+              </li>
+            </ul>
+
+            <div class="container-login-form-btn">
+              <button class="login-form-btn" type="submit">Entrar</button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-   
+
     <script src="js/script-login.js"></script>
-</body>
+  </body>
 </html>

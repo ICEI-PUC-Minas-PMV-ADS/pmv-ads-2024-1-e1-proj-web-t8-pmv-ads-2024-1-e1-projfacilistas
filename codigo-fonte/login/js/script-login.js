@@ -1,54 +1,62 @@
-let inputs = document.getElementsByClassName('input-form');
+let inputs = document.getElementsByClassName("input-form");
 for (let input of inputs) {
-    input.addEventListener("blur", function(){
-        if (input.value.trim() != "") {
-            input.classList.add('has-val');
-        } else {
-            input.classList.remove('has-val');
-        }
-    })
+  input.addEventListener("blur", function () {
+    if (input.value.trim() != "") {
+      input.classList.add("has-val");
+    } else {
+      input.classList.remove("has-val");
+    }
+  });
 }
 
 /*Validação do preenchimento do login e senha*/
 
-let form = document.getElementById('login-form');
-            form.addEventListener("submit", function(event) {
-            let inputs = document.getElementsByClassName('input-form');
-            for (let input of inputs) { 
-                if (input.value.trim() == ""){
-                    input.parentElement.classList.add('wrap-input-invalid');
-                } 
-            }
-            event.preventDefault();
-})
+let valid = 0;
 
+let form = document.getElementById("login-form");
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-/*Validação do login do formulário*/
-
-const allUsersString = window.localStorage.getItem("users");
-const allUsers = JSON.parse(allUsersString);
- 
-function logar() {
-  var login = document.getElementById("login").value;
-  var senha = document.getElementById("senha").value;
- 
-  let user;
- 
-  allUsers.users.find((elem) => {
-    if (elem.email == login && elem.password == senha) {
-      user = elem;
-      window.localStorage.setItem("userLogged", JSON.stringify(elem));
-      location.href = "../sistema/index.html";
+  let inputs = document.getElementsByClassName("input-form");
+  for (let input of inputs) {
+    if (input.value.trim() == "") {
+      input.parentElement.classList.add("wrap-input-invalid");
     }
-  });
- 
-  if (!user) {
-    alert("Usuário e login incorretos");
   }
-}
 
+  const email = document.querySelector("#login").value;
+  const senha = document.querySelector("#senha").value;
 
+  if (email === "" && senha === "") {
+    alert("Todos os dados devem ser informados!");
+    console.log({
+      email: email,
+      senha: senha,
+    });
+    return;
+  }
 
+  const listaUsuario = window.localStorage.getItem("contas");
+  const listaUsuarioAjustada = JSON.parse(listaUsuario);
+
+  if (listaUsuarioAjustada.length !== 0) {
+    for (let i = 0; i < listaUsuarioAjustada.length; i++) {
+      if (
+        listaUsuarioAjustada[i].email === email &&
+        listaUsuarioAjustada[i].senha === senha
+      ) {
+        window.localStorage.setItem("userLogado", email);
+        window.location.href = "../sistema/index.html";
+        return;
+      }
+    }
+  } else {
+    alert("Conta inexistente!");
+    return;
+  }
+
+  alert("Conta inexistente!");
+});
 
 /*Validação simples do login do formulário*/
 
@@ -63,11 +71,3 @@ function logar() {
         alert('Usuário e login incorretos')
     }
 };*/
-
-
-
-
-
-
-
-
