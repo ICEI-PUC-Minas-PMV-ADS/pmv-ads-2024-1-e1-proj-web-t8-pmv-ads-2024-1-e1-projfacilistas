@@ -121,16 +121,26 @@ const createYourLists = () => {
     saveButton.innerText = "Usar";
 
     saveButton.addEventListener("click", () => {
-      const copyAllLists = allLists;
-      const newList = dataTemplate[0];
-      copyAllLists.lists.push(newList);
+      if (allLists) {
+        const copyAllLists = allLists;
+        const newList = dataTemplate[0];
+        copyAllLists.lists.push(newList);
 
-      window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
-      location.reload();
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
+        window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+        location.reload();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      } else {
+        const newList = { lists: [dataTemplate[0]] };
+        window.localStorage.setItem("lists", JSON.stringify(newList));
+        location.reload();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
     });
   });
 };

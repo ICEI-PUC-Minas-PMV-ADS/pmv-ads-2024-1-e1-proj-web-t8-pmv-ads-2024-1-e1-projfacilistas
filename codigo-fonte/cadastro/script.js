@@ -23,29 +23,51 @@ formulario.addEventListener("submit", (ev) => {
     return;
   }
 
-  const allUsers = window.localStorage.getItem("contas");
-  const allUsersFormated = JSON.parse(allUsers);
+  const allUsers = window.localStorage.getItem("users");
+  let allUsersFormated = JSON.parse(allUsers);
 
-  for (let i = 0; i < allUsersFormated.length; i++) {
-    if (allUsersFormated[i].email === email) {
-      document.querySelector("#email").style.color = "red";
-      alert("Já existe conta cadastrada com esse e-mail!");
-      return;
+  let usersFinal;
+
+  if (allUsersFormated) {
+    for (let i = 0; i < allUsersFormated.length; i++) {
+      if (allUsersFormated[i].email === email) {
+        document.querySelector("#email").style.color = "red";
+        alert("Já existe conta cadastrada com esse e-mail!");
+        return;
+      }
     }
+
+    const users = allUsersFormated;
+    users.users.push({
+      id: generateUUID(),
+      email: email,
+      name: nome,
+      password: senha,
+    });
+    usersFinal = users;
+  } else {
+    const users = { users: [] };
+    users.users.push({
+      id: generateUUID(),
+      email: email,
+      name: nome,
+      password: senha,
+    });
+    usersFinal = users;
   }
 
-  const newUser = {
-    email: email,
-    nome: nome,
-    senha: senha,
-  };
-
-  allUsersFormated.push(newUser);
-
-  window.localStorage.setItem("contas", JSON.stringify(allUsersFormated));
+  window.localStorage.setItem("users", JSON.stringify(usersFinal));
 
   window.location.href = "../login/login.html";
 });
+
+const generateUUID = () => {
+  return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+    var r = (Math.random() * 16) | 0,
+      v = c == "x" ? r : (r & 0x3) | 0x8;
+    return v.toString(16);
+  });
+};
 
 /*   const createUser = () => {
     const allUsersString = window.localStorage.getItem("users");
