@@ -34,7 +34,6 @@ function logar() {
   let user;
 
   allUsers.users.find((elem) => {
-    console.log(elem, login, senha);
     if (elem.email == login && elem.password == senha) {
       user = elem;
       window.localStorage.setItem("userLogged", JSON.stringify(elem));
@@ -46,7 +45,6 @@ function logar() {
     alert("Usuário e login incorretos");
   }
 }
-
 /*Validação simples do login do formulário*/
 
 /*function logar() {
