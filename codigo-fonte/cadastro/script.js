@@ -26,11 +26,13 @@ formulario.addEventListener("submit", (ev) => {
   const allUsers = window.localStorage.getItem("contas");
   const allUsersFormated = JSON.parse(allUsers);
 
-  for (let i = 0; i < allUsersFormated.length; i++) {
-    if (allUsersFormated[i].email === email) {
-      document.querySelector("#email").style.color = "red";
-      alert("Já existe conta cadastrada com esse e-mail!");
-      return;
+  if (allUsersFormated.length !== 0) {
+    for (let i = 0; i < allUsersFormated.length; i++) {
+      if (allUsersFormated[i].email === email) {
+        document.querySelector("#email").style.color = "red";
+        alert("Já existe conta cadastrada com esse e-mail!");
+        return;
+      }
     }
   }
 
