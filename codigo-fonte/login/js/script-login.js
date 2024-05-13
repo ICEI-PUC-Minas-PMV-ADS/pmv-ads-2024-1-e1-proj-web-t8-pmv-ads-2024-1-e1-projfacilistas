@@ -20,6 +20,7 @@ form.addEventListener("submit", function (event) {
     }
   }
   event.preventDefault();
+  logar();
 });
 
 /*Validação do login do formulário*/
