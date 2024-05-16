@@ -107,7 +107,46 @@ const yourLists = () => {
 
           const tdQuantity = document.createElement("td");
           tr.appendChild(tdQuantity);
-          tdQuantity.innerText = `${item.quantity}`;
+
+          const decreaseQuantity = document.createElement("button");
+          tdQuantity.appendChild(decreaseQuantity);
+          decreaseQuantity.classList.add("button--quantity");
+          decreaseQuantity.innerText = `➖`;
+
+          const tdQuantityValue = document.createElement("span");
+          tdQuantity.appendChild(tdQuantityValue);
+          tdQuantityValue.innerText = `${item.quantity}`;
+
+          const increaseQuantity = document.createElement("button");
+          tdQuantity.appendChild(increaseQuantity);
+          increaseQuantity.classList.add("button--quantity");
+          increaseQuantity.innerText = `➕`;
+
+          decreaseQuantity.addEventListener("click", () => {
+            let copyAllLists = allLists;
+            let quantity =
+              copyAllLists.lists[indexElem].items[indexItem].quantity;
+
+            if (quantity >= 1) {
+              copyAllLists.lists[indexElem].items[indexItem].quantity =
+                --quantity;
+            }
+
+            window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+            location.reload();
+          });
+
+          increaseQuantity.addEventListener("click", () => {
+            let copyAllLists = allLists;
+            let quantity =
+              copyAllLists.lists[indexElem].items[indexItem].quantity;
+
+            copyAllLists.lists[indexElem].items[indexItem].quantity =
+              ++quantity;
+
+            window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+            location.reload();
+          });
         });
 
         const cBorder2 = document.createElement("div");

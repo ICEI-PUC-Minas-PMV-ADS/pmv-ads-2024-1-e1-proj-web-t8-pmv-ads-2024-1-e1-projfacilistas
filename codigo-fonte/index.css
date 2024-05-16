@@ -18,3 +18,13 @@
   --hoverBranco: #dddcdc;
   --cinza: #e9eaf4;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  width: 7px;
+  border-radius: 4px;
+  background-color: #f580139c;
+}

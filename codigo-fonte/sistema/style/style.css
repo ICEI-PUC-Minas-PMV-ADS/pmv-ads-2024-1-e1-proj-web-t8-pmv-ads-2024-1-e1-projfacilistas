@@ -97,6 +97,7 @@ main {
   display: flex;
   justify-content: space-around;
   overflow-y: auto;
+  max-height: 17rem;
 }
 
 .invisibleCheckbox {
@@ -190,4 +191,11 @@ th {
   border-radius: 4px;
   font-weight: 400;
   cursor: pointer;
+}
+
+.button--quantity {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 7px;
 }
