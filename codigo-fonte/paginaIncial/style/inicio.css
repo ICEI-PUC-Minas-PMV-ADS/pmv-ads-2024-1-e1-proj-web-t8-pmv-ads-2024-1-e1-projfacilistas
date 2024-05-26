@@ -2,7 +2,7 @@
   background-color: var(--cinza);
   padding-top: 84px;
   height: calc(100vh);
-  display: flex;
+  display: flex; /*flex*/
   align-items: center;
   width: 100%;
   justify-content: space-evenly;

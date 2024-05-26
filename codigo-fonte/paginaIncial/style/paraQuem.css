@@ -1,5 +1,5 @@
 #paraQuem {
-  display: flex;
+  display: flex; /*none*/
   flex-direction: column;
   background-color: var(--branco);
   padding-top: 84px;

@@ -38,9 +38,33 @@
           Sign up
         </button>
       </div>
+      <i class="fa-solid fa-bars" id="icon-header"></i>
     </header>
+    <!--navbar lateral-->
+    <div id="navbar-lateral">
+      <i class="fa-solid fa-xmark" id="exit"></i>
+      <a href="#inicio" class="navbar-item-lateral">Início</a>
+      <a href="#quemSomos" class="navbar-item-lateral">Quem Somos</a>
+      <a href="#paraQuem" class="navbar-item-lateral">Para quem</a>
+      <a href="#crieSuaLista" class="navbar-item-lateral">Faça sua lista</a>
+
+      <button
+        onclick="window.location.href = '../login/login.html'"
+        class="btn-header-lateral"
+        id="btnHeader-login-lateral"
+      >
+        Login
+      </button>
+      <button
+        onclick="window.location.href = '../cadastro/index.html'"
+        class="btn-header-lateral"
+        id="btnHeader-singUp-lateral"
+      >
+        Sign up
+      </button>
+    </div>
     <main id="principal">
-      <section id="inicio">
+      <section id="inicio" style="display: none">
         <div id="titulos-principais">
           <div id="div-titulos">
             <h1 id="title"><span>Simplifique com</span> FaciListas!</h1>
@@ -55,7 +79,7 @@
         </div>
         <img src="../img/imgPrincipal.png" alt="banner principal" />
       </section>
-      <section id="quemSomos">
+      <section id="quemSomos" style="display: none">
         <div id="title-quemSomos">
           <h2>FaciListas</h2>
           <h4>Somos um site inteligente para pessoas ocupadas</h4>
@@ -80,7 +104,7 @@
           </div>
         </div>
       </section>
-      <section id="paraQuem">
+      <section id="paraQuem" style="display: none">
         <div id="title-paraQuem">
           <h3>Você é um amante da lista?</h3>
           <h3>
@@ -126,7 +150,7 @@
           </div>
         </div>
       </section>
-      <section id="crieSuaLista">
+      <section id="crieSuaLista" style="display: none">
         <div id="titulo-facaLista">
           <h2>Crie sua lista</h2>
           <h3>Somos um site inteligente para pessoas ocupadas.</h3>
@@ -267,12 +291,14 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer style="display: none">
       <p>FaciListas© 2024</p>
       <p>
         Adrian Sodré, Antonio Cesar Silva, Breno Figueiredo, David Milan e
         Patrícia Rodrigues
       </p>
     </footer>
+
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
