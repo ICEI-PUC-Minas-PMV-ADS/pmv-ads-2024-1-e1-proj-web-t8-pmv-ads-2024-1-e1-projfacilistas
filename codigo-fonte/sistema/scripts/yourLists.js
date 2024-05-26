@@ -106,21 +106,30 @@ const yourLists = () => {
           tdProduct.innerText = `● ${item.name}`;
 
           const tdQuantity = document.createElement("td");
+          tdQuantity.classList.add("tdQuantity");
           tr.appendChild(tdQuantity);
 
+          const tdContainer = document.createElement("div");
+          tdQuantity.appendChild(tdContainer);
+
           const decreaseQuantity = document.createElement("button");
-          tdQuantity.appendChild(decreaseQuantity);
+          tdContainer.appendChild(decreaseQuantity);
           decreaseQuantity.classList.add("button--quantity");
           decreaseQuantity.innerText = `➖`;
 
           const tdQuantityValue = document.createElement("span");
-          tdQuantity.appendChild(tdQuantityValue);
+          tdContainer.appendChild(tdQuantityValue);
           tdQuantityValue.innerText = `${item.quantity}`;
 
           const increaseQuantity = document.createElement("button");
-          tdQuantity.appendChild(increaseQuantity);
+          tdContainer.appendChild(increaseQuantity);
           increaseQuantity.classList.add("button--quantity");
           increaseQuantity.innerText = `➕`;
+
+          const deleteItem = document.createElement("img");
+          tdQuantity.appendChild(deleteItem);
+          deleteItem.classList.add("button--delete--item--invisible");
+          deleteItem.src = `./assets/lixeira.png`;
 
           decreaseQuantity.addEventListener("click", () => {
             let copyAllLists = allLists;
@@ -147,6 +156,83 @@ const yourLists = () => {
             window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
             location.reload();
           });
+
+          deleteItem.addEventListener("click", () => {
+            let copyAllLists = allLists;
+
+            copyAllLists.lists[indexElem].items.splice(indexItem, 1);
+
+            window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+            location.reload();
+          });
+
+          tr.addEventListener("mouseover", () => {
+            deleteItem.classList.remove("button--delete--item--invisible");
+            deleteItem.classList.add("button--delete--item");
+          });
+
+          tr.addEventListener("mouseout", () => {
+            deleteItem.classList.remove("button--delete--item");
+            deleteItem.classList.add("button--delete--item--invisible");
+          });
+        });
+
+        const containerAddNewItem = document.createElement("div");
+        secondContainer.appendChild(containerAddNewItem);
+        containerAddNewItem.classList.add("containerAddNewItem");
+
+        const increaseItem = document.createElement("button");
+        containerAddNewItem.appendChild(increaseItem);
+        increaseItem.classList.add("button--item");
+        increaseItem.innerText = `➕`;
+
+        const buttonSave = document.createElement("button");
+        containerAddNewItem.appendChild(buttonSave);
+        buttonSave.classList.add("button--save--item");
+        buttonSave.classList.add("invisible");
+        buttonSave.innerText = `Salvar`;
+
+        increaseItem.addEventListener("click", () => {
+          const tr = document.createElement("tr");
+          tBody.appendChild(tr);
+
+          const tdChecklist = document.createElement("td");
+          tr.appendChild(tdChecklist);
+
+          const imgTdChecklist = document.createElement("img");
+          imgTdChecklist.classList.add("vChecklist");
+          tdChecklist.appendChild(imgTdChecklist);
+          imgTdChecklist.src = "./assets/iconCheckListX.png";
+
+          const tdProduct = document.createElement("td");
+          tr.appendChild(tdProduct);
+
+          const inputNewItemProduct = document.createElement("input");
+          inputNewItemProduct.classList.add("inputNewItem");
+          tdProduct.appendChild(inputNewItemProduct);
+          inputNewItemProduct.placeholder = `● Seu item aqui`;
+
+          const tdQuantity = document.createElement("td");
+          tr.appendChild(tdQuantity);
+
+          const inputNewItemQuantity = document.createElement("input");
+          inputNewItemQuantity.classList.add("inputNewItem");
+          tdQuantity.appendChild(inputNewItemQuantity);
+          inputNewItemQuantity.placeholder = `-`;
+
+          buttonSave.classList.remove("invisible");
+          buttonSave.addEventListener("click", () => {
+            let copyAllLists = allLists;
+
+            copyAllLists.lists[indexElem].items.push({
+              checked: false,
+              name: inputNewItemProduct.value,
+              quantity: inputNewItemQuantity.value,
+            });
+
+            window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+            location.reload();
+          });
         });
 
         const cBorder2 = document.createElement("div");
@@ -156,8 +242,5 @@ const yourLists = () => {
     });
   };
   cards();
-
-  // createYourLists();
-  // templateSupermarket();
 };
 yourLists();
