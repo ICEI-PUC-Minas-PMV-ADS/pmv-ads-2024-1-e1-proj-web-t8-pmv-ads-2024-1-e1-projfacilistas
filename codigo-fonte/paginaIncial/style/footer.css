@@ -1,5 +1,5 @@
 footer {
-  display: flex;
+  display: flex; /*flex*/
   justify-content: space-between;
   background-color: var(--azul);
   padding: 30px 10px;

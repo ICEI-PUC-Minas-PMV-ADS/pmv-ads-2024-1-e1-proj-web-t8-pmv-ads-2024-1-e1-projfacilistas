@@ -1,5 +1,5 @@
 #crieSuaLista {
-  display: flex;
+  display: flex; /*flex*/
   flex-direction: column;
   background-color: var(--branco);
   padding-top: 84px;
