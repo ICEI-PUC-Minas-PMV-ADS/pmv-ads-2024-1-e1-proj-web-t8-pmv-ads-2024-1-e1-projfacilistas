@@ -203,17 +203,14 @@ th {
   padding: 0 7px;
 }
 
-.button--item {
-  margin-left: 1rem;
-}
-
 .tdQuantity {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button--delete--item {
+.button--delete--item,
+.button--delete--list {
   cursor: pointer;
   width: 18px;
 }
@@ -222,7 +219,9 @@ th {
   display: none;
 }
 
-.inputNewItem {
+.inputNewItem,
+.inputNewItemProduct,
+.inputNewItemQuantity {
   max-width: 6.2rem;
   width: 100%;
   background-color: transparent;
@@ -246,6 +245,21 @@ th {
   margin-left: 1rem;
 }
 
-.containerAddNewItem {
-  padding-bottom: 1.6rem;
+.containerFooterList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.inputTitle {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+input:focus-visible {
+  outline: none;
 }

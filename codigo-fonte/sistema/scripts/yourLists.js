@@ -177,14 +177,37 @@ const yourLists = () => {
           });
         });
 
+        const containerFooterList = document.createElement("div");
+        secondContainer.appendChild(containerFooterList);
+        containerFooterList.classList.add("containerFooterList");
+
         const containerAddNewItem = document.createElement("div");
-        secondContainer.appendChild(containerAddNewItem);
+        containerFooterList.appendChild(containerAddNewItem);
         containerAddNewItem.classList.add("containerAddNewItem");
 
         const increaseItem = document.createElement("button");
         containerAddNewItem.appendChild(increaseItem);
         increaseItem.classList.add("button--item");
+        increaseItem.style = "padding: 0px";
         increaseItem.innerText = `➕`;
+
+        const containerDeleteList = document.createElement("div");
+        containerFooterList.appendChild(containerDeleteList);
+        containerDeleteList.classList.add("containerDeleteList");
+
+        const deleteList = document.createElement("img");
+        containerDeleteList.appendChild(deleteList);
+        deleteList.classList.add("button--delete--list");
+        deleteList.src = `./assets/lixeira.png`;
+
+        deleteList.addEventListener("click", () => {
+          let copyAllLists = allLists;
+
+          copyAllLists.lists.splice(indexElem, 1);
+
+          window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+          location.reload();
+        });
 
         const buttonSave = document.createElement("button");
         containerAddNewItem.appendChild(buttonSave);
