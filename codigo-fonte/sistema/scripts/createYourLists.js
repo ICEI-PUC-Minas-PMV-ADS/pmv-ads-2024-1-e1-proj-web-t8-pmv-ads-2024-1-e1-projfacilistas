@@ -169,130 +169,6 @@ const createYourLists = () => {
   increaseItem.classList.add("button--item");
   increaseItem.innerText = `➕`;
 
-  increaseItem.addEventListener("click", () => {
-    const buttonSaveExists =
-      document.getElementsByClassName("button--save--item");
-
-    const buttonSave = document.createElement("button");
-    containerAddNewItem.appendChild(buttonSave);
-    buttonSave.classList.add("button--save--item");
-    buttonSave.classList.add("invisible");
-    buttonSave.setAttribute("id", "button--save");
-    buttonSave.innerText = `Salvar`;
-
-    const tr = document.createElement("tr");
-    tBody.appendChild(tr);
-
-    const tdChecklist = document.createElement("td");
-    tr.appendChild(tdChecklist);
-
-    const imgTdChecklist = document.createElement("img");
-    imgTdChecklist.classList.add("vChecklist");
-    tdChecklist.appendChild(imgTdChecklist);
-    imgTdChecklist.src = "./assets/iconCheckListX.png";
-
-    const tdProduct = document.createElement("td");
-    tr.appendChild(tdProduct);
-
-    const inputNewItemProduct = document.createElement("input");
-    inputNewItemProduct.classList.add("inputNewItemProduct");
-    tdProduct.appendChild(inputNewItemProduct);
-    inputNewItemProduct.placeholder = `● Seu item aqui`;
-
-    const tdQuantity = document.createElement("td");
-    tr.appendChild(tdQuantity);
-
-    const inputNewItemQuantity = document.createElement("input");
-    inputNewItemQuantity.classList.add("inputNewItemQuantity");
-    tdQuantity.appendChild(inputNewItemQuantity);
-    inputNewItemQuantity.placeholder = `-`;
-
-    const titleValue = document.getElementsByClassName("inputTitle");
-
-    for (let index = 0; index < buttonSaveExists.length; index++) {
-      const element = buttonSaveExists[index];
-
-      if (index >= 2) {
-        containerAddNewItem.removeChild(element);
-      } else {
-        element.classList.remove("invisible");
-      }
-    }
-
-    buttonSave.addEventListener("click", () => {
-      if (allLists) {
-        let copyAllLists = allLists;
-
-        const newList = {
-          id: generateUUID(),
-          userId: userLogged.id,
-          title: titleValue.value,
-          category: "",
-          items: [],
-        };
-
-        const allInputsProduct = document.querySelectorAll(
-          ".inputNewItemProduct"
-        );
-        const allInputsQuantity = document.querySelectorAll(
-          ".inputNewItemQuantity"
-        );
-
-        for (let index = 0; index < allInputsProduct.length; index++) {
-          const valueProduct = allInputsProduct[index].value;
-          const valueQuantity = allInputsQuantity[index].value;
-
-          newList.items.push({
-            checked: false,
-            name: valueProduct,
-            quantity: valueQuantity,
-          });
-        }
-
-        copyAllLists.lists.push(newList);
-
-        window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
-        location.reload();
-      } else {
-        const newList = {
-          id: generateUUID(),
-          userId: userLogged.id,
-          title: titleValue.value,
-          category: "",
-          items: [],
-        };
-
-        const allInputsProduct = document.querySelectorAll(
-          ".inputNewItemProduct"
-        );
-        const allInputsQuantity = document.querySelectorAll(
-          ".inputNewItemQuantity"
-        );
-
-        for (let index = 0; index < allInputsProduct.length; index++) {
-          const valueProduct = allInputsProduct[index].value;
-          const valueQuantity = allInputsQuantity[index].value;
-
-          newList.items.push({
-            checked: false,
-            name: valueProduct,
-            quantity: valueQuantity,
-          });
-        }
-
-        window.localStorage.setItem(
-          "lists",
-          JSON.stringify({ lists: [newList] })
-        );
-        location.reload();
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      }
-    });
-  });
-
   const cBorder2 = document.createElement("div");
   cBorder2.classList.add("cBorder2");
   secondContainer.appendChild(cBorder2);
@@ -365,5 +241,127 @@ const createYourLists = () => {
   inputNewItemQuantity.classList.add("inputNewItemQuantity");
   tdQuantity.appendChild(inputNewItemQuantity);
   inputNewItemQuantity.placeholder = `-`;
+
+  increaseItem.addEventListener("click", () => {
+    const buttonSaveExists =
+      document.getElementsByClassName("button--save--item");
+
+    const buttonSave = document.createElement("button");
+    containerAddNewItem.appendChild(buttonSave);
+    buttonSave.classList.add("button--save--item");
+    buttonSave.classList.add("invisible");
+    buttonSave.setAttribute("id", "button--save");
+    buttonSave.innerText = `Salvar`;
+
+    const tr = document.createElement("tr");
+    tBody.appendChild(tr);
+
+    const tdChecklist = document.createElement("td");
+    tr.appendChild(tdChecklist);
+
+    const imgTdChecklist = document.createElement("img");
+    imgTdChecklist.classList.add("vChecklist");
+    tdChecklist.appendChild(imgTdChecklist);
+    imgTdChecklist.src = "./assets/iconCheckListX.png";
+
+    const tdProduct = document.createElement("td");
+    tr.appendChild(tdProduct);
+
+    const inputNewItemProduct = document.createElement("input");
+    inputNewItemProduct.classList.add("inputNewItemProduct");
+    tdProduct.appendChild(inputNewItemProduct);
+    inputNewItemProduct.placeholder = `● Seu item aqui`;
+
+    const tdQuantity = document.createElement("td");
+    tr.appendChild(tdQuantity);
+
+    const inputNewItemQuantity = document.createElement("input");
+    inputNewItemQuantity.classList.add("inputNewItemQuantity");
+    tdQuantity.appendChild(inputNewItemQuantity);
+    inputNewItemQuantity.placeholder = `-`;
+
+    for (let index = 0; index < buttonSaveExists.length; index++) {
+      const element = buttonSaveExists[index];
+
+      if (index >= 2) {
+        containerAddNewItem.removeChild(element);
+      } else {
+        element.classList.remove("invisible");
+      }
+    }
+
+    buttonSave.addEventListener("click", () => {
+      if (allLists) {
+        let copyAllLists = allLists;
+
+        const newList = {
+          id: generateUUID(),
+          userId: userLogged.id,
+          title: title.value,
+          category: "",
+          items: [],
+        };
+
+        const allInputsProduct = document.querySelectorAll(
+          ".inputNewItemProduct"
+        );
+        const allInputsQuantity = document.querySelectorAll(
+          ".inputNewItemQuantity"
+        );
+
+        for (let index = 0; index < allInputsProduct.length; index++) {
+          const valueProduct = allInputsProduct[index].value;
+          const valueQuantity = allInputsQuantity[index].value;
+
+          newList.items.push({
+            checked: false,
+            name: valueProduct,
+            quantity: valueQuantity,
+          });
+        }
+
+        copyAllLists.lists.push(newList);
+
+        window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+        location.reload();
+      } else {
+        const newList = {
+          id: generateUUID(),
+          userId: userLogged.id,
+          title: title.value,
+          category: "",
+          items: [],
+        };
+
+        const allInputsProduct = document.querySelectorAll(
+          ".inputNewItemProduct"
+        );
+        const allInputsQuantity = document.querySelectorAll(
+          ".inputNewItemQuantity"
+        );
+
+        for (let index = 0; index < allInputsProduct.length; index++) {
+          const valueProduct = allInputsProduct[index].value;
+          const valueQuantity = allInputsQuantity[index].value;
+
+          newList.items.push({
+            checked: false,
+            name: valueProduct,
+            quantity: valueQuantity,
+          });
+        }
+
+        window.localStorage.setItem(
+          "lists",
+          JSON.stringify({ lists: [newList] })
+        );
+        location.reload();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    });
+  });
 };
 createYourLists();
