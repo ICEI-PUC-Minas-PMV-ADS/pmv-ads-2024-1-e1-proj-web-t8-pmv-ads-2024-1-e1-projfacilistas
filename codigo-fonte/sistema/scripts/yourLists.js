@@ -136,7 +136,7 @@ const yourLists = () => {
             let quantity =
               copyAllLists.lists[indexElem].items[indexItem].quantity;
 
-            if (quantity >= 1) {
+            if (quantity >= 2) {
               copyAllLists.lists[indexElem].items[indexItem].quantity =
                 --quantity;
             }

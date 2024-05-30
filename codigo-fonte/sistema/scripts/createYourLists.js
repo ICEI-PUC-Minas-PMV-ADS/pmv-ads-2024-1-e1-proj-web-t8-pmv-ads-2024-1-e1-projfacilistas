@@ -242,6 +242,19 @@ const createYourLists = () => {
   tdQuantity.appendChild(inputNewItemQuantity);
   inputNewItemQuantity.placeholder = `-`;
 
+  inputNewItemQuantity.addEventListener("input", function () {
+    this.value = this.value.replace(/[^0-9.]/g, "");
+  });
+
+  inputNewItemQuantity.addEventListener("keydown", function (event) {
+    if (event.key === "Backspace") {
+      return;
+    }
+    if (event.key.match(/[^0-9.]/)) {
+      event.preventDefault();
+    }
+  });
+
   increaseItem.addEventListener("click", () => {
     const buttonSaveExists =
       document.getElementsByClassName("button--save--item");
@@ -279,6 +292,19 @@ const createYourLists = () => {
     inputNewItemQuantity.classList.add("inputNewItemQuantity");
     tdQuantity.appendChild(inputNewItemQuantity);
     inputNewItemQuantity.placeholder = `-`;
+
+    inputNewItemQuantity.addEventListener("input", function () {
+      this.value = this.value.replace(/[^0-9.]/g, "");
+    });
+
+    inputNewItemQuantity.addEventListener("keydown", function (event) {
+      if (event.key === "Backspace") {
+        return;
+      }
+      if (event.key.match(/[^0-9.]/)) {
+        event.preventDefault();
+      }
+    });
 
     for (let index = 0; index < buttonSaveExists.length; index++) {
       const element = buttonSaveExists[index];
