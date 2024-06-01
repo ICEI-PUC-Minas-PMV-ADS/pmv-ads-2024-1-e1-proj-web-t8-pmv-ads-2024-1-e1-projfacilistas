@@ -62,6 +62,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-05 | Os usuários devem ser capazes de adicionar itens à lista escolhida, seja selecionando-os de uma lista predefinida ou inserindo-os manualmente. | Alta |
 | RF-06 | Os usuários devem poder remover itens previamente adicionados à lista, caso desejem modificar sua seleção. | Alta |
 | RF-07 | Os usuários devem poder marcar um item como concluído à lista. | Alta |
+| RF-08 | Os usuários devem poder deletar uma lista. | Alta |
+| RF-09 | Os usuários devem poder criar uma lista do zero ou através de um template. | Alta |
+| RF-10 | Os usuários devem poder aumentar e diminuir a quantidade do item à lista. | Alta |
 
 **Prioridade: Alta / Média / Baixa. 
 
