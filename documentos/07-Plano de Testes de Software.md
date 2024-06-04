@@ -29,7 +29,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Visualizar um template e lista, e clicar em "Usar"</li>
    </ol>
    </td>
@@ -63,7 +67,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Visualizar suas listas.</li>
    </ol>
@@ -100,7 +108,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Para adicionar, clique no símbolo de adição ao lado esquerdo da lista</li>
     <li>Escolha o nome e a quantidade</li>
@@ -139,7 +151,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Visualizar suas listas.</li>
    </ol>
@@ -175,7 +191,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Clique no símbolo de lixeira ao lado inferior direito da lista</li>
    </ol>
@@ -211,7 +231,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Para aumentar, passe o mouse em cima do item e clique no símbolo de adição em quantidade</li>
     <li>Para diminuir, passe o mouse em cima do item e clique no símbolo de subtração em quantidade</li>
@@ -248,7 +272,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
     <li>Visualizar a página Home.</li>
-    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
     <li>Crie uma nova lista ou use um template.</li>
     <li>Clique no ícone de "X"</li>
    </ol>
