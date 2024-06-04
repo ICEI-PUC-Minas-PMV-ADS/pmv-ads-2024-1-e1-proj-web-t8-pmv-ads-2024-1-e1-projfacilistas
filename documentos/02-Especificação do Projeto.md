@@ -58,7 +58,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-01 | Os usuários devem poder ordenar os itens da lista de acordo com diferentes critérios, como data de criação, prioridade ou status. | Alta | 
 | RF-02 | Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura. | Média |
 | RF-03 | Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha). | Média |
-| RF-04 | O site deve mostrar cartões na página inicial, cada um representando uma lista diferente que os usuários podem acessar. | Alta   |
+| RF-04 | O site deve mostrar as listas que pertecem ao usuário logado. | Alta   |
 | RF-05 | Os usuários devem ser capazes de adicionar itens à lista escolhida, seja selecionando-os de uma lista predefinida ou inserindo-os manualmente. | Alta |
 | RF-06 | Os usuários devem poder remover itens previamente adicionados à lista, caso desejem modificar sua seleção. | Alta |
 | RF-07 | Os usuários devem poder marcar um item como concluído à lista. | Alta |
