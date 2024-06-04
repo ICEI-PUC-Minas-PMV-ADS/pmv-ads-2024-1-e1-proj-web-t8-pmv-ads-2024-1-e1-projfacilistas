@@ -222,6 +222,42 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-06: Verificar o funcionamento de marcar um item da lista como concluído</td>
+  <td>
+   <ul>
+    <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
+    <li>RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).</li>
+    <li>RF-09:	Os usuários devem poder criar uma lista do zero ou através de um template.</li>
+    <li>RF-04: O site deve mostrar as listas que pertecem ao usuário logado.</li>
+    <li>RF-07: Os usuários devem poder marcar um item como concluído à lista.</li>
+   </ul>
+  </td>
+  <td>Verificar se o site está marcando um item da lista como concluído</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em "Faça sua lista" no link da página Home.</li>
+    <li>Crie uma nova lista ou use um template.</li>
+    <li>Clique no ícone de "X"</li>
+   </ol>
+   </td>
+  <td>Deve marcar um item da lista como concluído.</td>
+  <td>Breno Santos Figueiredo</td>
+ </tr>
+</table>
+
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |
