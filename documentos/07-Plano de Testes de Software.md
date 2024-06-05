@@ -286,6 +286,37 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-XX: Verificar o cadastro de usuários</td>
+  <td>
+   <ul>
+    <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
+   </ul>
+  </td>
+  <td>Checar se os usuários conseguem fazer o cadastro corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em "Sign up", no Menu superior.</li>
+    <li>Preencher o formulário com nome, email e senha e clicar em “Cadastrar”.</li>
+   </ol>
+   </td>
+  <td>Ao clicar em cadastrar, se as informções estiverem dentro dos parâmetros esperados, o usuários será redirecionado a pagina de login.</td>
+  <td>David Milan</td>
+ </tr>
+</table>
+
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |
