@@ -11,7 +11,8 @@ const dataTemplate = [
     id: generateUUID(),
     userId: userLogged.id,
     title: "SUPERMERCADO",
-    category: "supermercado",
+    category: "",
+    isFavorite: false,
     items: [
       { name: "Arroz", quantity: 1, checked: true },
       { name: "Feijão", quantity: 2, checked: true },
@@ -325,6 +326,7 @@ const createYourLists = () => {
           userId: userLogged.id,
           title: title.value,
           category: "",
+          isFavorite: false,
           items: [],
         };
 
@@ -356,6 +358,7 @@ const createYourLists = () => {
           userId: userLogged.id,
           title: title.value,
           category: "",
+          isFavorite: false,
           items: [],
         };
 

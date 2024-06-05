@@ -42,6 +42,21 @@ const yourLists = () => {
         containerTitle.appendChild(title);
         title.innerText = elem.title;
 
+        const favoriteIcon = document.createElement("img");
+        favoriteIcon.classList.add("favoriteIcon");
+        containerTitle.appendChild(favoriteIcon);
+        favoriteIcon.src =
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLITEu5SNLt5wt_UmRapkWZ2sqhjxQWkMxqg&s";
+
+        favoriteIcon.addEventListener("click", () => {
+          let copyAllLists = allLists;
+
+          console.log(copyAllLists.lists[indexElem].isFavorite);
+
+          // window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+          // location.reload();
+        });
+
         const cBorder = document.createElement("div");
         cBorder.classList.add("cBorder");
         firstContainer.appendChild(cBorder);
