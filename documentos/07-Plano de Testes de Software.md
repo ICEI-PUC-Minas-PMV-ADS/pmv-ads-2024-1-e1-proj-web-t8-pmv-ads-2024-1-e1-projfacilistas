@@ -136,7 +136,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-02: Verificar o funcionamento de visualização das listas do usuário</td>
+  <td>CT-04: Verificar o funcionamento de visualização das listas do usuário</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -175,7 +175,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar o funcionamento de deletar uma lista</td>
+  <td>CT-05: Verificar o funcionamento de deletar uma lista</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -215,7 +215,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar o funcionamento de aumentar e diminuir a quantidade de um item da lista</td>
+  <td>CT-06: Verificar o funcionamento de aumentar e diminuir a quantidade de um item da lista</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -256,7 +256,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-06: Verificar o funcionamento de marcar um item da lista como concluído</td>
+  <td>CT-07: Verificar o funcionamento de marcar um item da lista como concluído</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
