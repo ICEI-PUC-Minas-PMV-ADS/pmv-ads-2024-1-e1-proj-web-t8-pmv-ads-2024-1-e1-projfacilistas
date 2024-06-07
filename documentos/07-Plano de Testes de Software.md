@@ -288,7 +288,38 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-08: Verificar botão de favoritar</td>
+  <td>CT-08: Verificar o login de usuários</td>
+  <td>
+   <ul>
+    <li>RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).</li>
+   </ul>
+  </td>
+  <td>Checar se os usuários conseguem fazer o login utilizando email e senha cadastrados.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em "Login", no Menu superior.</li>
+    <li>Preencher o formulário com email e senha e clicar em “Entrar”.</li>
+   </ol>
+   </td>
+  <td>Ao clicar em Entrar, se o usuário e senha estiverem cadastrados a página será direcionada para a página de usuário, mostrando suas listas salvas.</td>
+  <td>David Milan</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-09: Verificar botão de favoritar</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
