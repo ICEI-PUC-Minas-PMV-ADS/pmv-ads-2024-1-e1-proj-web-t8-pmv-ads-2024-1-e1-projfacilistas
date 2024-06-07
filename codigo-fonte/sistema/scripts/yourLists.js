@@ -45,16 +45,22 @@ const yourLists = () => {
         const favoriteIcon = document.createElement("img");
         favoriteIcon.classList.add("favoriteIcon");
         containerTitle.appendChild(favoriteIcon);
-        favoriteIcon.src =
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLITEu5SNLt5wt_UmRapkWZ2sqhjxQWkMxqg&s";
+        favoriteIcon.src = "./assets/star.png"
 
-        favoriteIcon.addEventListener("click", () => {
-          let copyAllLists = allLists;
+        console.log(allLists.lists[indexElem])
+        allLists.lists[indexElem].isFavorite
+        ? (favoriteIcon.src = "./assets/starFill.png")
+        : (favoriteIcon.src = "./assets/star.png");
 
-          console.log(copyAllLists.lists[indexElem].isFavorite);
+        containerTitle.addEventListener("click", () => {
+          const copyAllLists = allLists;
+          const isFavorite =
+            copyAllLists.lists[indexElem].isFavorite;
 
-          // window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
-          // location.reload();
+          copyAllLists.lists[indexElem].isFavorite = !isFavorite;
+
+          window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
+          location.reload();
         });
 
         const cBorder = document.createElement("div");
