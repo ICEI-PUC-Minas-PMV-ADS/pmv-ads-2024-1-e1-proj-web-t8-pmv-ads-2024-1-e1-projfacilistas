@@ -125,44 +125,6 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
  </tr>
 </table>
 
-<table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-04: Verificar o funcionamento de visualização das listas do usuário</td>
-  <td>
-   <ul>
-    <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
-    <li>RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).</li>
-    <li>RF-09:	Os usuários devem poder criar uma lista do zero ou através de um template.</li>
-    <li>RF-04: O site deve mostrar as listas que pertecem ao usuário logado.</li>
-   </ul>
-  </td>
-  <td>Verificar se o site está mostrando as listas corretamente</td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página Home.</li>
-    <li>Clicar em "Sign Up" no link da página Home.</li>
-    <li>Visualizar a página de cadastro.</li>
-    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
-    <li>Visualizar a página de login.</li>
-    <li>Adicionar seus dados e clicar em "Entrar".</li>
-    <li>Crie uma nova lista ou use um template.</li>
-    <li>Visualizar suas listas.</li>
-   </ol>
-   </td>
-  <td>Deve mostrar todas as listas do usuário logado.</td>
-  <td>Breno Santos Figueiredo</td>
- </tr>
-</table>
 
 <table>
  <tr>
@@ -174,7 +136,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-05: Verificar o funcionamento de deletar uma lista</td>
+  <td>CT-04: Verificar o funcionamento de deletar uma lista</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -214,7 +176,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-06: Verificar o funcionamento de aumentar e diminuir a quantidade de um item da lista</td>
+  <td>CT-05: Verificar o funcionamento de aumentar e diminuir a quantidade de um item da lista</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -255,7 +217,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-07: Verificar o funcionamento de marcar um item da lista como concluído</td>
+  <td>CT-06: Verificar o funcionamento de marcar um item da lista como concluído</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -295,7 +257,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-08: Verificar o cadastro de usuários</td>
+  <td>CT-07: Verificar o cadastro de usuários</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -326,7 +288,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-09: Verificar botão de favoritar</td>
+  <td>CT-08: Verificar botão de favoritar</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
