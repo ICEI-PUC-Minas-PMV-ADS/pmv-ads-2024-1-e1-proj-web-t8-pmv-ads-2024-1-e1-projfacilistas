@@ -1,8 +1,7 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+Abaixo estão listados e descritos os testes funcionais que serão realizados na aplicação.
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
 <table>
  <tr>
@@ -296,7 +295,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-XX: Verificar o cadastro de usuários</td>
+  <td>CT-08: Verificar o cadastro de usuários</td>
   <td>
    <ul>
     <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
@@ -312,7 +311,47 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
     <li>Preencher o formulário com nome, email e senha e clicar em “Cadastrar”.</li>
    </ol>
    </td>
-  <td>Ao clicar em cadastrar, se as informções estiverem dentro dos parâmetros esperados, o usuários será redirecionado a pagina de login.</td>
+  <td>Ao clicar em cadastrar, se as informações estiverem dentro dos parâmetros esperados, o usuário será redirecionado a pagina de login.</td>
+  <td>David Milan</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-09: Verificar botão de favoritar</td>
+  <td>
+   <ul>
+    <li>RF-02: Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura.</li>
+    <li>RF-03: Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha).</li>
+    <li>RF-09:	Os usuários devem poder criar uma lista do zero ou através de um template.</li>
+    <li>RF-04: O site deve mostrar as listas que pertecem ao usuário logado.</li>
+    <li>RF-11:	Os usuários devem poder marcar as listas como favoritas.</li>
+   </ul>
+  </td>
+  <td>Checar se botão de favoritos está funcionando corretamente, sendo ele somente o contorno de uma estrela por padrão e quando ele está marcado, fica preenchido.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
+    <li>Crie uma nova lista ou use um template.</li>
+    <li>Clique no ícone de estrela (☆) ao lado do título da lista.</li>
+   </ol>
+   </td>
+  <td>Ao clicar no ícone ele deve ficar preenchido com uma cor sólida, indicando que a lista está favoritada.</td>
   <td>David Milan</td>
  </tr>
 </table>
