@@ -65,6 +65,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-08 | Os usuários devem poder deletar uma lista. | Alta |
 | RF-09 | Os usuários devem poder criar uma lista do zero ou através de um template. | Alta |
 | RF-10 | Os usuários devem poder aumentar e diminuir a quantidade do item à lista. | Alta |
+| RF-11 | Os usuários devem poder marcar as listas como favoritas. | Média |
 
 **Prioridade: Alta / Média / Baixa. 
 
