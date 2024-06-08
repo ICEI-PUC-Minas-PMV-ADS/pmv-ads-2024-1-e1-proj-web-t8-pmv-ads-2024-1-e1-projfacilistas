@@ -24,9 +24,9 @@ function getListItems() {
 
     itemsInsideList.forEach((item) => {
       if (itemsMap[item.name]) {
-        itemsMap[item.name] += item.quantity;
+        itemsMap[item.name] += Number(item.quantity);
       } else {
-        itemsMap[item.name] = item.quantity;
+        itemsMap[item.name] = Number(item.quantity);
       }
     });
   });
@@ -75,6 +75,13 @@ function renderFrequencyChart() {
   const items = getListItems();
   createFrequencyChart(items);
 }
+
+// Monitora alterações no localStorage
+window.addEventListener("storage", (event) => {
+  if (event.key === "lists") {
+    renderFrequencyChart(); // Atualiza o gráfico quando a chave "lists" no localStorage é modificada
+  }
+});
 
 // Chama a função para renderizar o gráfico ao carregar a página
 document.addEventListener("DOMContentLoaded", () => {
