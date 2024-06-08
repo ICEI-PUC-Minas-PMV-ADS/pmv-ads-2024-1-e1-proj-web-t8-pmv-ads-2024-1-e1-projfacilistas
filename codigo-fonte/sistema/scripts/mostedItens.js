@@ -52,10 +52,10 @@ function createFrequencyChart(items) {
       labels: labels,
       datasets: [
         {
-          label: "Frequency",
+          label: "Quantidade",
           data: data,
-          backgroundColor: "rgba(75, 192, 192, 0.2)",
-          borderColor: "rgba(75, 192, 192, 1)",
+          backgroundColor: "#fff0d4",
+          borderColor: "#f58013",
           borderWidth: 1,
         },
       ],
