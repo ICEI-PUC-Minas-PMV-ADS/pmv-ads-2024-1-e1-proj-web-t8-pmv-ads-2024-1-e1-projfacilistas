@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/footer.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
     <header id="cabecalho">
@@ -39,6 +40,15 @@
           </div>
         </div>
       </div>
+      <div class="mosted-itens">
+        <div class="container__title">
+          <h2>Itens mais colocados</h2>
+          <p class="container__p"></p>
+          <div class="container__border">
+            <canvas id="myChart"></canvas>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p class="copyright">FaciListas© 2024</p>
@@ -51,5 +61,6 @@
     <script src="scripts/header.js"></script>
     <script src="scripts/yourLists.js"></script>
     <script src="scripts/createYourLists.js"></script>
+    <script src="./scripts/mostedItens.js"></script>
   </body>
 </html>

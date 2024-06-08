@@ -45,17 +45,16 @@ const yourLists = () => {
         const favoriteIcon = document.createElement("img");
         favoriteIcon.classList.add("favoriteIcon");
         containerTitle.appendChild(favoriteIcon);
-        favoriteIcon.src = "./assets/star.png"
+        favoriteIcon.src = "./assets/star.png";
 
-        console.log(allLists.lists[indexElem])
+        console.log(allLists.lists[indexElem]);
         allLists.lists[indexElem].isFavorite
-        ? (favoriteIcon.src = "./assets/starFill.png")
-        : (favoriteIcon.src = "./assets/star.png");
+          ? (favoriteIcon.src = "./assets/starFill.png")
+          : (favoriteIcon.src = "./assets/star.png");
 
         containerTitle.addEventListener("click", () => {
           const copyAllLists = allLists;
-          const isFavorite =
-            copyAllLists.lists[indexElem].isFavorite;
+          const isFavorite = copyAllLists.lists[indexElem].isFavorite;
 
           copyAllLists.lists[indexElem].isFavorite = !isFavorite;
 
