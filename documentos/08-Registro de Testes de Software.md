@@ -104,4 +104,15 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   </li>
   <hr>
+
+  <li> CT-11: Checar se os links de direcionamento de páginas estão funcionando de forma adequada.
+
+  Responsável: Breno Santos Figueiredo
+
+  <p>Clicando nos link de navegação:</p>
+  
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/94a04071-fe96-4be4-b219-02fd7e58b973
+
+  </li>
+  <hr>
 </ol>
