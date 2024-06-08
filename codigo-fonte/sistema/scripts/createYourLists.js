@@ -11,13 +11,31 @@ const dataTemplate = [
     id: generateUUID(),
     userId: userLogged.id,
     title: "SUPERMERCADO",
-    category: "",
     isFavorite: false,
     items: [
-      { name: "Arroz", quantity: 1, checked: true },
-      { name: "Feijão", quantity: 2, checked: true },
-      { name: "Açúcar", quantity: 1, checked: false },
-      { name: "Café", quantity: 2, checked: true },
+      { name: "Arroz", quantity: 3, checked: false },
+      { name: "Feijão", quantity: 2, checked: false },
+      { name: "Açúcar", quantity: 2, checked: false },
+      { name: "Ovos", quantity: 12, checked: false },
+      { name: "Café", quantity: 4, checked: false },
+      { name: "Leite", quantity: 6, checked: false },
+      { name: "Carne", quantity: 2, checked: false },
+    ],
+  },
+  {
+    id: generateUUID(),
+    userId: userLogged.id,
+    title: "Material escolar",
+    isFavorite: false,
+    items: [
+      { name: "Caderno", quantity: 5, checked: false },
+      { name: "Caneta", quantity: 3, checked: false },
+      { name: "Lápis", quantity: 2, checked: false },
+      { name: "Borracha", quantity: 1, checked: false },
+      { name: "Marca texto", quantity: 3, checked: false },
+      { name: "Régua", quantity: 1, checked: false },
+      { name: "Cola", quantity: 1, checked: false },
+      { name: "Pasta", quantity: 1, checked: false },
     ],
   },
 ];
@@ -43,7 +61,7 @@ const createYourLists = () => {
     card.appendChild(firstContainer);
 
     const secondContainer = document.createElement("div");
-    secondContainer.classList.add("second-container");
+    secondContainer.classList.add("second-c");
     card.appendChild(secondContainer);
 
     const containerTitle = document.createElement("div");
@@ -112,19 +130,15 @@ const createYourLists = () => {
       tdQuantity.innerText = `${item.quantity}`;
     });
 
-    const cBorder2 = document.createElement("div");
-    cBorder2.classList.add("cBorder2");
-    secondContainer.appendChild(cBorder2);
-
     const saveButton = document.createElement("button");
-    saveButton.classList.add("saveButton");
+    saveButton.classList.add("useListButton");
     secondContainer.appendChild(saveButton);
     saveButton.innerText = "Usar";
 
-    saveButton.addEventListener("click", () => {
+    saveButton.addEventListener("click", (e) => {
       if (allLists) {
         const copyAllLists = allLists;
-        const newList = dataTemplate[0];
+        const newList = elem;
         copyAllLists.lists.push(newList);
 
         window.localStorage.setItem("lists", JSON.stringify(copyAllLists));
@@ -134,7 +148,7 @@ const createYourLists = () => {
           behavior: "smooth",
         });
       } else {
-        const newList = { lists: [dataTemplate[0]] };
+        const newList = { lists: [elem] };
         window.localStorage.setItem("lists", JSON.stringify(newList));
         location.reload();
         window.scrollTo({

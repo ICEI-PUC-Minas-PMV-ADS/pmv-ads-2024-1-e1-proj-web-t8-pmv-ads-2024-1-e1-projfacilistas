@@ -47,12 +47,11 @@ const yourLists = () => {
         containerTitle.appendChild(favoriteIcon);
         favoriteIcon.src = "./assets/star.png";
 
-        console.log(allLists.lists[indexElem]);
         allLists.lists[indexElem].isFavorite
           ? (favoriteIcon.src = "./assets/starFill.png")
           : (favoriteIcon.src = "./assets/star.png");
 
-        containerTitle.addEventListener("click", () => {
+        favoriteIcon.addEventListener("click", () => {
           const copyAllLists = allLists;
           const isFavorite = copyAllLists.lists[indexElem].isFavorite;
 
@@ -263,6 +262,19 @@ const yourLists = () => {
           tdQuantity.appendChild(inputNewItemQuantity);
           inputNewItemQuantity.placeholder = `-`;
 
+          inputNewItemQuantity.addEventListener("input", function () {
+            this.value = this.value.replace(/[^0-9.]/g, "");
+          });
+
+          inputNewItemQuantity.addEventListener("keydown", function (event) {
+            if (event.key === "Backspace") {
+              return;
+            }
+            if (event.key.match(/[^0-9.]/)) {
+              event.preventDefault();
+            }
+          });
+
           buttonSave.classList.remove("invisible");
           buttonSave.addEventListener("click", () => {
             let copyAllLists = allLists;
@@ -277,10 +289,6 @@ const yourLists = () => {
             location.reload();
           });
         });
-
-        const cBorder2 = document.createElement("div");
-        cBorder2.classList.add("cBorder2");
-        secondContainer.appendChild(cBorder2);
       }
     });
   };
