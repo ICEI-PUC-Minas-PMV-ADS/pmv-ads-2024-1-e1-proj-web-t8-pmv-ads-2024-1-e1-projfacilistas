@@ -90,5 +90,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
   </li>
 
 
+<li> CT-10: Checar se os números apresentados nos gráficos estão corretos, e se atualizam automaticamente a medida que é incluido um novo item.
 
+  Responsável: Breno Santos Figueiredo
+
+  <p>Gráfico sem listas criadas:</p>
+  
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/8f291570-c952-4a31-8e3c-e759b32e838b)
+
+  <p>Gráfico com lista de "Material escolar" adicionada:</p>
+  
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/80117189/598a5d60-6b87-4a17-a37a-ead40ee34fc1)
+
+  </li>
+  <hr>
 </ol>
