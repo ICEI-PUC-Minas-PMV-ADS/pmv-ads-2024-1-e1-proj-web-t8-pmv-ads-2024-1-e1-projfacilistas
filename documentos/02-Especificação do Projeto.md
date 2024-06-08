@@ -55,7 +55,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 | ID    | Descrição                       | Prioridade |
 |-------|---------------------------------|------------|
-| RF-01 | Os usuários devem poder navegar entre as páginas, através de links | Alta | 
+| RF-01 | Os usuários devem poder navegar entre as páginas, através de links de navegação da página inicial| Alta | 
 | RF-02 | Os usuários devem ter a capacidade de criar uma conta no site fornecendo um endereço de e-mail válido e uma senha segura. | Média |
 | RF-03 | Os usuários registrados devem poder fazer login no site utilizando suas credenciais de conta (e-mail e senha). | Média |
 | RF-04 | O site deve mostrar as listas que pertecem ao usuário logado. | Alta   |
