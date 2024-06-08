@@ -385,6 +385,36 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-10: Verificar navegaçao dos links na tela inicial.</td>
+  <td>
+   <ul>
+    <li>RF-01: Os usuários devem poder navegar pelas páginas através de links.</li>
+   </ul>
+  </td>
+  <td>Checar se os links de direcionamento de páginas estão funcionando de forma adequada.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar nos botões de direcionamento.</li>
+   </ol>
+   </td>
+  <td>Os links devem direcionar para a página correta.</td>
+  <td>Adrian Sodré</td>
+ </tr>
+</table>
+
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
