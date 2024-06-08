@@ -66,6 +66,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | RF-09 | Os usuários devem poder criar uma lista do zero ou através de um template. | Alta |
 | RF-10 | Os usuários devem poder aumentar e diminuir a quantidade do item à lista. | Alta |
 | RF-11 | Os usuários devem poder marcar as listas como favoritas. | Média |
+| RF-12 | Os usuários devem poder visualizar em formato de gráfico todos os itens das listas e suas respectivas quantidades. | Média |
 
 **Prioridade: Alta / Média / Baixa. 
 
