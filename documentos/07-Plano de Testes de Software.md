@@ -349,6 +349,43 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-10: Verificar gráfico dos itens</td>
+  <td>
+   <ul>
+    <li>RF-12: Os usuários devem poder visualizar em formato de gráficos os itens das listas e suas respectivas quantidades..</li>
+   </ul>
+  </td>
+  <td>Checar se os números apresentados nos gráficos estão corretos, e se atualizam automaticamente a medida que é incluido um novo item</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar em "Sign Up" no link da página Home.</li>
+    <li>Visualizar a página de cadastro.</li>
+    <li>Adicionar seus dados e clicar em "Cadastrar".</li>
+    <li>Visualizar a página de login.</li>
+    <li>Adicionar seus dados e clicar em "Entrar".</li>
+    <li>Ir até o campo do gráfico e verificar se os números estão de acordo.</li>
+    <li>Acrescentar algum item na lista e verificar se houve alteração no gráfico.</li>
+   </ol>
+   </td>
+  <td>Os números apresentados devem estar condizentes com os itens das listas, e qualquer alteração ou inclusão de item, deve ser atualizado automaticamente no gráfico.</td>
+  <td>Adrian Sodré</td>
+ </tr>
+</table>
+
+
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |
