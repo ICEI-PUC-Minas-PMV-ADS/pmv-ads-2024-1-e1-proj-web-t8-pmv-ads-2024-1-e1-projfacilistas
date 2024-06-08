@@ -4,6 +4,7 @@
   background-color: var(--branco);
   padding-top: 84px;
   height: calc(100vh);
+  gap: 1.5rem;
   display: flex;
   align-items: center;
   width: 100%;
