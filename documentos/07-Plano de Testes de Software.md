@@ -395,7 +395,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-10: Verificar navegaçao dos links na tela inicial.</td>
+  <td>CT-11: Verificar navegaçao dos links na tela inicial.</td>
   <td>
    <ul>
     <li>RF-01: Os usuários devem poder navegar pelas páginas através de links.</li>
