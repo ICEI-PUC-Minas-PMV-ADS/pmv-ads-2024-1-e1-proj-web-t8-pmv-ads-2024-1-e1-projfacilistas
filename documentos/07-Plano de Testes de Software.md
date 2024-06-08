@@ -398,7 +398,7 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <td>CT-11: Verificar navegaçao dos links na tela inicial.</td>
   <td>
    <ul>
-    <li>RF-01: Os usuários devem poder navegar pelas páginas através de links.</li>
+    <li>RF-01: Os usuários devem poder navegar pelas páginas através de links de navegação da página inicial.</li>
    </ul>
   </td>
   <td>Checar se os links de direcionamento de páginas estão funcionando de forma adequada.</td>
@@ -414,19 +414,3 @@ Abaixo estão listados e descritos os testes funcionais que serão realizados na
   <td>Adrian Sodré</td>
  </tr>
 </table>
-
-
-|Caso de Teste    | CT-X - Título Caso de Teste |
-|:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
