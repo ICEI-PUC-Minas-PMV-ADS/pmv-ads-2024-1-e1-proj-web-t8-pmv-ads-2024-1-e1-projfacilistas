@@ -93,6 +93,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   Responsável: Adrian Sodré
 
+  <p>Criando um cadastro no sistema</p>
+
+  ![CT07]()
+
 <li> CT-10: Checar se os números apresentados nos gráficos estão corretos, e se atualizam automaticamente a medida que é incluido um novo item.
 
   Responsável: Breno Santos Figueiredo
