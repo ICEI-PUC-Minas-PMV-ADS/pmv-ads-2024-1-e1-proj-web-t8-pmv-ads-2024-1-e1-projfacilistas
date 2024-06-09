@@ -98,8 +98,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   <p>Criando um cadastro no sistema</p>
 
+  
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/a0037fc31a35bc7355e6be1904f4eedb4c1a7563/documentos/img/CT07.mp4
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/144627413/ac147c83-47bb-494d-8b09-ededca974ce3
+
+
 
 </li>
 
@@ -111,7 +114,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   <p>Logando no sistema</p>
 
-  ![CT08](documentos/img/CT08Img.png)(documentos/img/CT08.mp4)
+  
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/144627413/03c3b1a8-8ce2-47a0-8737-79332d15fcef
+
 
   </li>
 
