@@ -89,6 +89,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
   ![concluido2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/d3b2e9a9-60ac-4bd4-9e5b-bb37621d9a46)
   </li>
 
+  
+
 <li> CT-07: Verificar o cadastro de usuários. 
 
   Responsável: Adrian Sodré
@@ -97,6 +99,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   ![CT07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos/img/CT07.mp4)
 
+</li>
+
+<hr>
 
 <li> CT-08: Verificar o clogin de usuários. 
 
@@ -105,6 +110,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
   <p>Logando no sistema</p>
 
   ![CT08](documentos/img/CT08Img.png)(documentos/img/CT08.mp4)
+
+  </li>
+
+  <hr>
 
 <li> CT-10: Checar se os números apresentados nos gráficos estão corretos, e se atualizam automaticamente a medida que é incluido um novo item.
 
