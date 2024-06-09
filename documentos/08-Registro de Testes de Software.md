@@ -90,6 +90,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
   </li>
 
   
+<hr>
 
 <li> CT-07: Verificar o cadastro de usuários. 
 
@@ -97,7 +98,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   <p>Criando um cadastro no sistema</p>
 
-  ![CT07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos/img/CT07.mp4)
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos/img/CT07.mp4
 
 </li>
 
