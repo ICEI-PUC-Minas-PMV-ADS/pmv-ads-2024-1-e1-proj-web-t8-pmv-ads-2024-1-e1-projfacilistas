@@ -95,7 +95,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   <p>Criando um cadastro no sistema</p>
 
-  ![CT07](documentos/img/CT07Img.png)(documentos/img/CT07.mp4)
+  ![CT07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos/img/CT07.mp4)
 
 
 <li> CT-08: Verificar o clogin de usuários. 
