@@ -108,7 +108,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
 <hr>
 
-<li> CT-08: Verificar o clogin de usuários. 
+<li> CT-08: Verificar o login de usuários. 
 
   Responsável: Adrian Sodré
 
@@ -118,6 +118,25 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/144627413/03c3b1a8-8ce2-47a0-8737-79332d15fcef
+
+
+  </li>
+
+  <hr>
+
+<li> CT-09: Verificar botão de favoritar. 
+
+  Responsável: Adrian Sodré
+
+  <p>Favoritando uma lista.</p>
+
+  
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/144627413/100f7685-1432-42a2-a8df-fb619c60e60e
+
+
 
 
   </li>
