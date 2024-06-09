@@ -95,7 +95,16 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 
   <p>Criando um cadastro no sistema</p>
 
-  ![CT07]()
+  ![CT07](documentos/img/CT07Img.png)(documentos/img/CT07.mp4)
+
+
+<li> CT-08: Verificar o clogin de usuários. 
+
+  Responsável: Adrian Sodré
+
+  <p>Logando no sistema</p>
+
+  ![CT08](documentos/img/CT08Img.png)(documentos/img/CT08.mp4)
 
 <li> CT-10: Checar se os números apresentados nos gráficos estão corretos, e se atualizam automaticamente a medida que é incluido um novo item.
 
