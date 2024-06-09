@@ -99,7 +99,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
   <p>Criando um cadastro no sistema</p>
 
 
-  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/a0037fc31a35bc7355e6be1904f4eedb4c1a7563/documentos/img/CT07.mp4
+  ![ct07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/blob/main/documentos/img/CT07.mp4)
 
 </li>
 
