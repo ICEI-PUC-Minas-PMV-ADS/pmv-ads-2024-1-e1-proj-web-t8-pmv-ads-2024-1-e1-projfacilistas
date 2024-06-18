@@ -3,6 +3,15 @@ footer {
   justify-content: space-between;
   background-color: var(--azul);
   padding: 30px 10px;
-  margin-top: 4rem;
+  margin-top: 2rem;
   color: var(--branco);
+}
+
+@media (max-width: 827px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
 }
