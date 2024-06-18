@@ -1,10 +1,9 @@
 #paraQuem {
-  display: flex; /*none*/
+  display: flex;
   flex-direction: column;
   background-color: var(--branco);
   padding-top: 84px;
-  height: calc(100vh);
-  display: flex;
+  min-height: calc(100vh - 84px);
   align-items: center;
   width: 100%;
   justify-content: space-between;
@@ -15,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  padding-bottom: 2rem;
 }
 
 #title-paraQuem h3 {
@@ -34,7 +33,7 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  height: 100%;
+  width: 100%;
 }
 
 #div-cards-paraQuem > h4 {
@@ -47,7 +46,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -80,4 +79,65 @@
 
 .card-paraQuem p {
   color: var(--cinza-escuro);
+}
+
+@media (max-width: 1159px) {
+  #div-cards-paraQuem > h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--laranja);
+  }
+
+  #cards-paraQuem {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 963px) {
+  #cards-paraQuem {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 927px) {
+  #title-paraQuem {
+    padding-bottom: 1rem;
+  }
+
+  #paraQuem {
+    padding-top: 60px;
+  }
+
+  .card-paraQuem {
+    width: 90%;
+  }
+}
+
+@media (max-width: 784px) {
+  #title-paraQuem h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 597px) {
+  #title-paraQuem h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  #div-cards-paraQuem > h4 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 338px) {
+  #title-paraQuem h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #div-cards-paraQuem > h4 {
+    font-size: 14px;
+  }
 }
