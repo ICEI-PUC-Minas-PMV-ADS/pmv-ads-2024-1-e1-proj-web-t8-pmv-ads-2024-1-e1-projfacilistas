@@ -70,3 +70,84 @@
 #txt-quemSomos > button:hover {
   background-color: var(--hoverLaranja);
 }
+
+@media (max-width: 1083px) {
+  #infos-quemSomos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  #txt-quemSomos {
+    width: 400px;
+  }
+
+  #txt-quemSomos > button {
+    width: 180px;
+  }
+
+  #imgQuemSomos {
+    width: 350px;
+  }
+}
+
+@media (max-width: 786px) {
+  #txt-quemSomos {
+    width: 90%;
+  }
+
+  #txt-quemSomos p {
+    width: 90%;
+    text-align: justify;
+  }
+
+  #txt-quemSomos > button {
+    width: 180px;
+  }
+
+  #imgQuemSomos {
+    display: none;
+  }
+}
+
+@media (max-width: 641px) {
+  #title-quemSomos > h2 {
+    font-size: 40px;
+  }
+
+  #title-quemSomos > h4 {
+    font-size: 20px;
+  }
+
+  #txt-quemSomos > h3 {
+    font-size: 30px;
+  }
+
+  #txt-quemSomos p {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 493px) {
+  #title-quemSomos > h2 {
+    font-size: 40px;
+  }
+
+  #title-quemSomos > h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #txt-quemSomos > h3 {
+    font-size: 30px;
+  }
+
+  #txt-quemSomos p {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+  }
+}
