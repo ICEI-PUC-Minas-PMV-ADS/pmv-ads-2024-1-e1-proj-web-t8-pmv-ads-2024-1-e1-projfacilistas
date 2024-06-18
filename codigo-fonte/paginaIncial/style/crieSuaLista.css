@@ -115,3 +115,50 @@ table td {
 .linha {
   width: 60%;
 }
+
+@media (max-width: 918px) {
+  #cards_facaLista {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (max-width: 532px) {
+  #titulo-facaLista {
+    text-align: center;
+  }
+
+  #subtitulo-facaLista {
+    text-align: center;
+  }
+
+  #titulo-facaLista > h2 {
+    font-size: 30px;
+  }
+
+  #titulo-facaLista > h3 {
+    font-size: 14px;
+  }
+
+  #subtitulo-facaLista > h4 {
+    font-size: 20px;
+  }
+
+  #subtitulo-facaLista > p {
+    font-size: 12px;
+  }
+
+  .card-facaLista {
+    width: 90%;
+  }
+}
+
+@media (max-width: 403px) {
+  table th,
+  table td {
+    padding: 2px; /* Adiciona espaçamento interno às células */
+    font-size: 12px;
+  }
+}
