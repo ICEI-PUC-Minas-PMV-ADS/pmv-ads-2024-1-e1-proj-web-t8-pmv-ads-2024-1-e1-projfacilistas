@@ -46,3 +46,62 @@
 #btn-action-prin:hover {
   background-color: var(--hoverLaranja);
 }
+
+@media (max-width: 1190px) {
+  #title {
+    font-size: 60px;
+  }
+
+  #mainImg {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1029px) {
+  #title {
+    font-size: 60px;
+  }
+
+  #mainImg {
+    width: 350px;
+  }
+}
+
+@media (max-width: 858px) {
+  #inicio {
+    justify-content: flex-start;
+    padding-left: 3rem;
+  }
+
+  #mainImg {
+    display: none;
+  }
+}
+
+@media (max-width: 561px) {
+  #inicio {
+    justify-content: flex-start;
+    padding-left: 2rem;
+  }
+
+  #title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 371px) {
+  #inicio {
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+
+  #title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 318px) {
+  #title {
+    font-size: 45px;
+  }
+}
