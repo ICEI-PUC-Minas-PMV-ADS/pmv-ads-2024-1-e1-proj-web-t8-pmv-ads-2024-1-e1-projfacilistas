@@ -13,3 +13,5 @@
 6 - VILAÇA, Márcio Luiz Corrêa; ARAÚJO, Elaine Vasquez Ferreira de. **Tecnologia, sociedade e educação na era digital**. Duque de Caxias: UNIGRANRIO, 2016.
 
 7 - SCHWABER, K.; SUTHERLAND, J. O Guia do Scrum O Guia Definitivo para o Scrum: As Regras do Jogo. Tradução: Fábio Cruz; Tradução: Eduardo Sucena; Tradução: Rodrigo Paulo. [s.l.] scrumguides.org, 2020. 
+
+8 - CLEMENTE, MATHEUS. Psicologia das Cores: descubra o significado (e o poder) de cada cor no marketing. Disponível em: https://rockcontent.com/br/blog/psicologia-das-cores/. Acesso em: 19 de jun. 2024.
