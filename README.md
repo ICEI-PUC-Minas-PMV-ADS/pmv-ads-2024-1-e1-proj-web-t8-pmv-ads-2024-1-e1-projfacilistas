@@ -37,7 +37,7 @@ O objetivo geral deste projeto é o desenvolvimento de um site fácil, útil e i
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* [Site hospedado](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial/)
 
 # Código-Fonte
 
