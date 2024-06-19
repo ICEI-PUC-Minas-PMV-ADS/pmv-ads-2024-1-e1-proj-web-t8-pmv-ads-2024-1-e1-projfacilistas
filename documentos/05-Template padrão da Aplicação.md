@@ -33,6 +33,6 @@ Possui campos para que os usuários insiram suas informações que posteriorment
 
 ## Logotipo
 
-Para a criação do logotipo do site foi utilizada a cor laranja, pois esta cor remete ao equilíbrio, despertando o ânimo do usuário, além de estimular a criatividade e auxiliar na atração de consumidores. Também foi utilizada a cor azul escuro que remete a tranquilidade, confiança, tecnologia, essa cor tem como característica a capacidade de levar segurança e tranquilidade para as pessoas.(CLEMENTE, Matheus 2020 - [Rockcontent](https://rockcontent.com/br/blog/referencia-de-site-abnt/#:~:text=Para%20fazer%20uma%20refer%C3%AAncia%20de,data%20de%20acesso%20ao%20site.) ). A utilização da imagem de um bloco de notas foi escolhida por ser algo presente no dia-a-dia com a finalidade de fazer notas de alguma informação.
+Para a criação do logotipo do site foi utilizada a cor laranja, pois esta cor remete ao equilíbrio, despertando o ânimo do usuário, além de estimular a criatividade e auxiliar na atração de consumidores. Também foi utilizada a cor azul escuro que remete a tranquilidade, confiança, tecnologia, essa cor tem como característica a capacidade de levar segurança e tranquilidade para as pessoas.(CLEMENTE, 2020). A utilização da imagem de um bloco de notas foi escolhida por ser algo presente no dia-a-dia com a finalidade de fazer notas de alguma informação.
 
 ![figura 4 - Logo em negativo com fundo na cor azul](img/lgo-facilistas-com-fundo-azul.png)
