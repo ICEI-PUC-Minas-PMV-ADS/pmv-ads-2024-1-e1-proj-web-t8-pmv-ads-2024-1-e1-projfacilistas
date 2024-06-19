@@ -37,7 +37,7 @@ O objetivo geral deste projeto é o desenvolvimento de um site fácil, útil e i
 
 # Hospedagem
 
-* [Site hospedado](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial/)
+* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial/) para acessá-lo.
 
 # Código-Fonte
 
