@@ -60,6 +60,7 @@ Utilizamos diversas plataformas para o desenvolvimento deste projeto. A descriç
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/tree/main/documentos |
 | Projeto de Interface                | Figma                              | https://www.figma.com/proto/ZkIOb8kayKYGIQjyN8q8QC/Prototipo-FaciListas-2?node-id=5-573&starting-point-node-id=5%3A573 |
 | Gerenciamento do Projeto            | GitHub                             | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1066/views/1 |
+| Hospedagem do site                  | GitHub                             | [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1066/views/1](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial/) |
 
 
 ### Estratégia de Organização de Codificação 
