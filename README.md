@@ -11,9 +11,7 @@ O objetivo geral deste projeto é o desenvolvimento de um site fácil, útil e i
 ## Integrantes
 
 * Adrian Sodré da Silva
-* Antonio Cesar de Araujo e Silva
 * Breno Santos Figueiredo
-* Cláudio Yuri Pereira de Souza
 * David Travassos Milan
 * Patrícia Ester Ferreira Rodrigues
 
