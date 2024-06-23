@@ -13,7 +13,7 @@ Desta forma foi necessário dividir e equipe em papeis, formando assim nosso _Sc
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
 - Scrum Master: David Milan
 - Product Owner: Breno Figueiredo
-- Equipe de Desenvolvimento: Adrian Sodré, Antonio Cesar de Araujo, Breno Figueiredo, Cláudio Souza, David Milan e Patrícia Rodrigues
+- Equipe de Desenvolvimento: Adrian Sodré, Breno Figueiredo, David Milan e Patrícia Rodrigues
 - Equipe de Design: Patrícia Rodrigues
 
 ### Processo
