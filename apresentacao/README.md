@@ -4,7 +4,7 @@
 
 Na apresentação de slides a seguir estão apresentadas informações sobre a aplicação:
 
-[FaciListas - Apresentação.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/files/15286587/FaciListas.-.Apresentacao2.pdf)
+[FaciListas - Apresentação final.pdf](https://github.com/user-attachments/files/15948511/FaciListas.-.Apresentacao.final.pdf)
 
 2. Vídeo de apresentação das funcionalidades
 
@@ -13,7 +13,3 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-
 # Hospedagem
 
 [Site hospedado](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/codigo-fonte/paginaIncial/)
-
-
-
-
