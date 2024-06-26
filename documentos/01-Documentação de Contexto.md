@@ -76,7 +76,7 @@ confirmação deste interesse por meio de formulário foi avaliada e confirmada 
 indivíduos buscam estas “facilidades” no seu cotidiano. O site organizador de listas é
 importante para melhorar a eficiência e a organização, além de promover um maior bemestar
 emocional e mental, ao oferecer uma ferramenta que gerencia o estresse e a
-sobrecarga. O site ajuda as pessoas a se sentirem mais felizes e produtivas.
+sobrecarga. O site ajudar as pessoas a se sentirem mais felizes e produtivas.
 
 ## Público-Alvo
 
