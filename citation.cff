@@ -1,29 +1,21 @@
 message: Please cite this software using these metadata.
-title:
+title: FaciListas
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Sodré da Silva
+    given-names: Adrian
+  - family-names: Santos Figueiredo
+    given-names: Breno
+  - family-names: Travassos Milan
+    given-names: David
+  - family-names: Ester Ferreira Rodrigues
+    given-names: Patrícia
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Soares Vieira de Vasconcelos
+    given-names: Amália
 keywords:
-  - 
-  - 
-repository-code: 
+  - Listas
+  - Organização
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-06-23
