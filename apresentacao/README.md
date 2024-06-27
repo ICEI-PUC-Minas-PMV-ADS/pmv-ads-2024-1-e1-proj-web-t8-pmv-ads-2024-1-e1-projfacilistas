@@ -8,7 +8,11 @@ Na apresentação de slides a seguir estão apresentadas informações sobre a a
 
 2. Vídeo de apresentação das funcionalidades
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/26215a17-71af-46c9-9bd0-c3fb31e19444
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t8-pmv-ads-2024-1-e1-projfacilistas/assets/135237340/730e388c-250c-4d04-8feb-36fcd6135020
+
+
 
 # Hospedagem
 
